@@ -240,3 +240,118 @@ Também será possível configurar:
 - Comportamento dos lembretes fora do expediente.
 
 ---
+
+## 2.7 Restrições e condições
+
+### Quantidade de telas
+
+O aplicativo deverá possuir quatro telas principais:
+
+- Timer;
+- Alongamentos;
+- Pausas;
+- Relatório.
+
+### Plataforma
+
+A primeira versão será destinada ao **Android**, com suporte inicial ao **Android 7.0 / API 24 ou superior**.
+
+### Conectividade
+
+As funções essenciais deverão continuar disponíveis offline.
+
+### Armazenamento
+
+Informações necessárias ao timer, configurações e histórico deverão ser persistidas localmente.
+
+### Privacidade
+
+O PausaAtiva deverá coletar somente informações necessárias para sua própria experiência.
+
+O aplicativo **não deverá monitorar**:
+
+- Aplicativos utilizados pelo trabalhador;
+- Histórico de navegação;
+- Teclas pressionadas;
+- Capturas de tela;
+- Produtividade;
+- Conteúdo acessado.
+
+O objetivo é acompanhar pausas e configurações ergonômicas, e não vigiar o trabalhador.
+
+### Navegação
+
+A navegação entre as quatro áreas principais deverá ser simples e rápida.
+
+### Notificações
+
+Os lembretes precisam ser discretos para evitar interrupções excessivas durante o trabalho.
+
+### Duração dos alongamentos
+
+Os alongamentos devem ser rápidos, com sequências de aproximadamente até 3 minutos.
+
+### Responsividade
+
+O layout não deverá depender de uma largura fixa e deverá se adaptar corretamente aos diferentes tamanhos de tela.
+
+### Permissões
+
+O aplicativo deverá solicitar somente as permissões realmente necessárias para seu funcionamento.
+
+---
+
+## 2.8 Pontos de atenção
+
+Para o grupo, três aspectos são essenciais para o sucesso do PausaAtiva.
+
+### 1. Notificações realmente discretas
+
+Esse aspecto é fundamental porque o aplicativo será utilizado durante o trabalho.
+
+Se os lembretes forem muito frequentes, barulhentos ou invasivos, o usuário poderá se sentir incomodado e abandonar a solução.
+
+O aplicativo precisa encontrar um equilíbrio entre:
+
+**Lembrar o usuário × Não atrapalhar sua atividade**
+
+A possibilidade de configurar intervalos, tipos de alerta e adiar uma pausa contribui para esse equilíbrio.
+
+### 2. Funcionamento confiável do timer e modo offline
+
+O timer é um dos elementos centrais do PausaAtiva.
+
+O estado da contagem e o horário da próxima pausa precisam ser preservados mesmo quando o aplicativo for fechado ou permanecer em segundo plano.
+
+Além disso, as funções principais devem continuar disponíveis mesmo sem conexão com a internet.
+
+### 3. Simplicidade e facilidade de uso
+
+O usuário estará trabalhando enquanto utiliza o aplicativo.
+
+Por isso, o fluxo precisa exigir o mínimo possível de interações.
+
+O fluxo principal deve ser:
+
+**Iniciar Timer → Receber lembrete → Fazer alongamento → Concluir pausa → Continuar trabalhando**
+
+Quanto menor o esforço necessário para utilizar o aplicativo, maior a possibilidade de ele fazer parte da rotina diária do usuário.
+
+---
+
+## Conclusão
+
+A análise do estudo de caso demonstra que o **PausaAtiva** não deve ser tratado apenas como um cronômetro, mas como uma ferramenta de apoio à rotina ergonômica do trabalhador.
+
+Seu principal valor está na combinação entre:
+
+- Timer;
+- Lembretes discretos;
+- Exercícios guiados;
+- Personalização da jornada;
+- Histórico;
+- Acompanhamento do progresso.
+
+Para que a solução seja bem-sucedida, o desenvolvimento deverá preservar principalmente a **simplicidade, confiabilidade do timer, funcionamento offline e privacidade**.
+
+O aplicativo deverá ajudar o usuário a inserir pequenas pausas em sua rotina profissional sem se transformar em uma distração ou em uma ferramenta de vigilância.
