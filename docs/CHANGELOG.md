@@ -74,9 +74,22 @@ Este bloco registra mudanças de design realizadas após feedback de usuários o
 
 ---
 
+## [1.0.1] - 2026-09-02
+
+### Adicionado
+
+- Criação inicial do repositório do projeto PausaAtiva.
+- Criação do README.md.
+- Criação do CHANGELOG.md.
+- Criação da documentação docs/estudo-de-caso.md.
+- Análise inicial do problema, público-alvo e contexto de uso.
+- Definição das principais funcionalidades e restrições do projeto.
+---
+
 *Para adicionar um novo registro, use o formato:*
 
 ```
+
 ### [Categoria] — Descrição breve — AAAA-MM-DD
 
 **Mudança:** O que foi alterado.
