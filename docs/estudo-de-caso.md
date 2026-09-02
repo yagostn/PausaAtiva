@@ -32,6 +32,7 @@ Ele é relevante por três implicações simultâneas, todas presentes no materi
 
 A necessidade central é **ser lembrado de pausar e conseguir cumprir essa pausa em poucos minutos, sem expor o trabalhador nem interromper de forma agressiva o trabalho**. Tudo o mais no caso (dicas na tela do timer, guia visual, meta semanal, PDF) existe para sustentar esse hábito. Implicação para o desenvolvimento: priorizar o ciclo timer–lembrete–alongamento curto–registro, com tom discreto e dados sob controle do usuário — e não um sistema de RH, ranking ou vigilância, que o próprio roadmap deixa para versões futuras.
 
+---
 ### 2.2 Público e usuários
 
 O estudo de caso aponta um público principal — o trabalhador que permanece longos períodos sentado — e, no roadmap, um público institucional (empresa / RH) que **não** é usuário do MVP. A análise abaixo interpreta esses públicos em vez de apenas listá-los.
@@ -65,6 +66,7 @@ Essa distinção explica decisões já citadas no caso: notificação discreta, 
 
 **Implicação para o desenvolvimento:** projetar autenticação, armazenamento e interface para o trabalhador como único usuário da versão 1.0. Qualquer dado extra (quais apps está usando, quanto produz) está fora do problema e fora do contrato de confiança descrito no estudo de caso.
 
+---
 ### 2.3 Contexto de uso
 
 O PausaAtiva não é aberto no sofá, com tempo e atenção livres. Ele entra no expediente: a pessoa está na tarefa, o celular está ao lado do teclado e qualquer interação disputa segundos com o trabalho. O contexto de uso, portanto, é o que decide se o ciclo descrito no caso (timer → lembrete → alongamento → registro) vira hábito ou vira app desinstalado.
@@ -96,6 +98,7 @@ Alongar, Pausas e Relatório sustentam o hábito (orientação, histórico, meta
 
 **Implicação para o desenvolvimento:** tratar o expediente como ambiente hostil à interrupção. Priorizar persistência do timer, notificação local configurável, funcionamento sem internet e interface que se resolve em segundos — em vez de telas densas, fluxos longos de onboarding ou qualquer recurso que exija atenção contínua no celular.
 
+---
 ### 2.4 Funcionalidades
 
 As funcionalidades do MVP não formam uma lista de desejos. Elas fecham o ciclo de adesão definido em 2.1 e cabem no contexto de 2.3. O que não sustenta esse ciclo — gestão de equipe, dashboard de RH, ranking, backup em nuvem, iOS — fica no roadmap e fora da versão 1.0.
@@ -127,3 +130,113 @@ Histórico local, relatório semanal (gráfico de barras, total e meta) e export
 Monitorar aplicativos, teclado, navegação ou produtividade; gamificação visível (conquistas, ranking); gestão de funcionários; relatórios corporativos automáticos. O caso cita parte disso como restrição ou como futuro. Incluir agora inverteria o usuário (de trabalhador para fiscal) e chocaria com o contrato de privacidade.
 
 **Implicação para o desenvolvimento:** implementar primeiro o núcleo timer–notificação–alongamento–configuração, com persistência local. Relatório e PDF vêm em seguida, como leitura do que já foi registrado. Qualquer tela ou API que observe o comportamento no computador está fora do escopo da análise e da versão 1.0.
+
+---
+## 2.5 Personalidade, identidade e experiência
+
+O PausaAtiva foi concebido como um produto:
+
+- Discreto;
+- Silencioso;
+- Simples;
+- Corporativo;
+- Leve;
+- Ergonômico.
+
+Essas características devem influenciar tanto a interface quanto o comportamento das notificações.
+
+### Palavras conceituais
+
+As principais palavras que representam o produto são:
+
+**Pausa, equilíbrio, ergonomia, simplicidade, cuidado, leveza, organização e bem-estar.**
+
+### Personalidade
+
+A identidade deve transmitir proximidade sem perder o caráter profissional.
+
+O aplicativo pode ser entendido como:
+
+> **Um colega de trabalho digital que lembra o usuário de fazer uma pausa, sem vigiar nem atrapalhar sua rotina.**
+
+### Tom da interface
+
+A comunicação deve ser:
+
+- Clara;
+- Objetiva;
+- Tranquila;
+- Amigável;
+- Não invasiva.
+
+Em vez de repreender o usuário, o aplicativo deve convidá-lo a realizar uma pausa de maneira positiva.
+
+Exemplo:
+
+> **Hora de cuidar da postura. Que tal uma pausa de 3 minutos?**
+
+### Como o aplicativo deseja ser lembrado
+
+O PausaAtiva deverá ser lembrado como uma ferramenta simples que ajuda o usuário a cuidar da postura durante o trabalho sem incomodar e sem funcionar como instrumento de vigilância.
+
+---
+
+## 2.6 Funcionalidades e características já definidas
+
+O MVP está organizado em quatro telas principais:
+
+1. **Timer**
+2. **Alongamentos**
+3. **Pausas**
+4. **Relatório**
+
+| Funcionalidade | Necessidade atendida |
+|---|---|
+| **Timer de pausas** | Controlar o tempo até a próxima pausa. |
+| **Iniciar, pausar, retomar e encerrar** | Dar controle ao usuário sobre o timer. |
+| **Notificações discretas** | Lembrar o usuário sem interromper excessivamente o trabalho. |
+| **Adiar lembrete** | Permitir que o usuário finalize uma atividade antes da pausa. |
+| **Guia de alongamentos** | Orientar exercícios rápidos durante a pausa. |
+| **Cronômetro do exercício** | Controlar a duração dos movimentos. |
+| **Indicador de progresso** | Mostrar a etapa atual da sequência de exercícios. |
+| **Configuração de intervalo** | Adaptar a frequência das pausas à rotina. |
+| **Duração da pausa** | Permitir configurar quanto tempo a pausa deverá durar. |
+| **Tipo de lembrete** | Permitir escolher entre silencioso, vibração ou som. |
+| **Horário de trabalho** | Evitar lembretes fora do expediente. |
+| **Dias ativos** | Adaptar o aplicativo à jornada semanal. |
+| **Histórico de pausas** | Registrar as pausas realizadas. |
+| **Relatório semanal** | Acompanhar frequência e evolução das pausas. |
+| **Gráfico semanal** | Facilitar a visualização dos dados. |
+| **Meta semanal** | Criar uma referência de progresso. |
+| **Exportação em PDF** | Permitir salvar ou compartilhar o relatório. |
+| **Funcionamento offline** | Manter as principais funções disponíveis sem internet. |
+
+### Configurações de pausa
+
+O usuário poderá configurar intervalos de:
+
+- 30 minutos;
+- 45 minutos;
+- 60 minutos;
+- 90 minutos.
+
+A duração da pausa poderá ser de:
+
+- 1 minuto;
+- 2 minutos;
+- 3 minutos.
+
+Os tipos de lembrete poderão incluir:
+
+- Silencioso;
+- Vibração suave;
+- Som discreto.
+
+Também será possível configurar:
+
+- Horário de início do expediente;
+- Horário de fim do expediente;
+- Dias ativos da semana;
+- Comportamento dos lembretes fora do expediente.
+
+---
