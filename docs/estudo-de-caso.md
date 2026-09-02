@@ -64,3 +64,66 @@ Essa distinção explica decisões já citadas no caso: notificação discreta, 
 - **Situação de uso:** não é o celular do trabalhador no meio da tarde; é um painel posterior. Por isso não deve guiar as quatro telas atuais.
 
 **Implicação para o desenvolvimento:** projetar autenticação, armazenamento e interface para o trabalhador como único usuário da versão 1.0. Qualquer dado extra (quais apps está usando, quanto produz) está fora do problema e fora do contrato de confiança descrito no estudo de caso.
+
+### 2.3 Contexto de uso
+
+O PausaAtiva não é aberto no sofá, com tempo e atenção livres. Ele entra no expediente: a pessoa está na tarefa, o celular está ao lado do teclado e qualquer interação disputa segundos com o trabalho. O contexto de uso, portanto, é o que decide se o ciclo descrito no caso (timer → lembrete → alongamento → registro) vira hábito ou vira app desinstalado.
+
+**Onde e quando o aplicativo é usado**
+
+O uso ocorre **durante a jornada**, não depois dela. Três recortes se repetem no material do grupo:
+
+1. **Posto de trabalho com tela principal no computador.** O celular é secundário. Abrir o app, iniciar o timer e voltar à tarefa precisa caber em poucos toques. A tela do Timer é a “casa” do produto: contagem, próxima pausa e uma dica ergonômica — sem relatório ou meta saltando à frente.
+2. **Ambiente compartilhado (open space, reunião presencial).** Colegas ouvem, veem a tela e interpretam o que acontece no celular alheio. Som alto, animação de celebração ou cor saturada deixam de ser detalhe de interface e passam a ser risco social. Daí o padrão silencioso, a vibração como alternativa e o tom visual sóbrio.
+3. **Home office e reunião online.** Há menos plateia física, mas a câmera está ligada e o fluxo de concentração (“zona de flow”) é o mesmo. O lembrete ainda precisa ser discreto; o alongamento ainda precisa caber em 1 a 3 minutos, sem exigir sair do cômodo.
+
+O horário configurável (início, fim e dias da jornada) existe porque o contexto **não é 24 horas**. Lembrete no almoço, à noite ou no fim de semana quebra a confiança no produto com a mesma força que um alarme no meio de uma reunião.
+
+**Condições que o projeto precisa assumir**
+
+- **Atenção dividida.** O usuário não “entra no app para explorar”. Ele reage a um lembrete ou confere o timer. Ações críticas (iniciar, pausar, retomar, encerrar, seguir o próximo exercício) têm de ser óbvias e com área de toque confortável.
+- **Rede instável ou ausente.** No escritório com Wi-Fi corporativo restrito ou em home office com queda de conexão, o timer e o histórico não podem depender da nuvem. Offline-first não é extra: é condição de continuidade.
+- **Celular que some da mão.** A pessoa tranca a tela, troca de app ou guarda o aparelho. O timer precisa persistir depois do fechamento; a notificação local precisa sobreviver sem o app em primeiro plano.
+- **Privacidade no ombro do colega.** Quem passa atrás da cadeira não deve ler produtividade, ranking nem dados pessoais. Timer e dica podem ficar visíveis; relatório e histórico ficam em abas acessadas de propósito.
+
+**Fluxo real, não o fluxo do menu**
+
+O caminho feliz do caso não é “visitar as quatro abas”. É um laço curto, repetido várias vezes por dia:
+
+Login (primeira vez) → configurar intervalo, duração, tipo de lembrete e horário → deixar o timer correr em segundo plano → receber notificação discreta → abrir o guia de alongamento (ou só encerrar a pausa) → registrar a conclusão → voltar ao trabalho.
+
+Alongar, Pausas e Relatório sustentam o hábito (orientação, histórico, meta, PDF). Eles não podem atrasar o laço principal. Se a configuração inicial for longa ou o primeiro lembrete for invasivo, o contexto de uso mata o produto antes da segunda pausa.
+
+**Implicação para o desenvolvimento:** tratar o expediente como ambiente hostil à interrupção. Priorizar persistência do timer, notificação local configurável, funcionamento sem internet e interface que se resolve em segundos — em vez de telas densas, fluxos longos de onboarding ou qualquer recurso que exija atenção contínua no celular.
+
+### 2.4 Funcionalidades
+
+As funcionalidades do MVP não formam uma lista de desejos. Elas fecham o ciclo de adesão definido em 2.1 e cabem no contexto de 2.3. O que não sustenta esse ciclo — gestão de equipe, dashboard de RH, ranking, backup em nuvem, iOS — fica no roadmap e fora da versão 1.0.
+
+**Núcleo: lembrar, pausar, orientar, registrar**
+
+| Função | O que faz no caso | Por que existe |
+|---|---|---|
+| Timer com contagem regressiva | Iniciar, pausar, retomar e encerrar o intervalo | É o motor do hábito. Sem persistência após fechar o app, o lembrete some no primeiro bloqueio de tela. |
+| Notificação local discreta | Avisa no fim do intervalo; padrão silencioso, com vibração ou som suave | Resolve o “nada me interrompe de forma aceitável”. Se for invasiva, o usuário desliga o canal e o produto acaba. |
+| Guia visual de alongamento | Sequências curtas (até 3 minutos), ilustração + cronômetro por exercício | Transforma o lembrete em pausa executável no posto, sem aula de fisioterapia nem sair da cadeira. |
+| Configuração da jornada | Intervalo (30, 45, 60, 90 min), duração (1, 2, 3 min), tipo de lembrete, horário e dias | Adapta o ciclo à pessoa (prazos, aulas, open space). Configuração errada vira interrupção inútil. |
+| Dicas ergonômicas | Texto curto na tela do Timer, alinhado à NR-17 | Orienta postura no momento em que o app já está aberto — sem virar conteúdo separado que ninguém lê. |
+
+Esse conjunto responde à necessidade central: ser lembrado e conseguir cumprir a pausa em poucos minutos, sem exposição.
+
+**Sustentação: ver que as pausas aconteceram**
+
+Histórico local, relatório semanal (gráfico de barras, total e meta) e exportação em PDF não iniciam a pausa. Eles fecham o ciclo de confiança: a pessoa vê se o hábito existe e, se quiser, leva o consolidado para si ou para uma conversa (por exemplo, com RH), **por iniciativa própria**. Por isso o relatório vive em aba própria e não na tela principal.
+
+**Infraestrutura que o usuário não vê, mas o caso exige**
+
+- **Armazenamento local (Hive) e modo offline.** Timer, configurações e histórico precisam sobreviver sem rede. Sincronização avançada via Firebase é evolução, não pré-requisito do MVP.
+- **Quatro abas (Timer, Alongar, Pausas, Relatório).** Recortam o produto no essencial. Mais telas no primeiro release diluem o laço curto descrito em 2.3.
+- **Conta individual.** Login existe para separar o dado da pessoa. Não implica, na 1.0, painel da empresa nem leitura do que o trabalhador faz no computador.
+
+**O que deliberadamente não é funcionalidade agora**
+
+Monitorar aplicativos, teclado, navegação ou produtividade; gamificação visível (conquistas, ranking); gestão de funcionários; relatórios corporativos automáticos. O caso cita parte disso como restrição ou como futuro. Incluir agora inverteria o usuário (de trabalhador para fiscal) e chocaria com o contrato de privacidade.
+
+**Implicação para o desenvolvimento:** implementar primeiro o núcleo timer–notificação–alongamento–configuração, com persistência local. Relatório e PDF vêm em seguida, como leitura do que já foi registrado. Qualquer tela ou API que observe o comportamento no computador está fora do escopo da análise e da versão 1.0.

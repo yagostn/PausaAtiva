@@ -84,6 +84,16 @@ Este bloco registra mudanças de design realizadas após feedback de usuários o
 - Criação da documentação docs/estudo-de-caso.md.
 - Análise inicial do problema, público-alvo e contexto de uso.
 - Definição das principais funcionalidades e restrições do projeto.
+
+---
+
+## [1.0.2] - 2026-09-02
+
+### Adicionado
+
+- Continuação da documentação docs/estudo-de-caso.md.
+- Análise do contexto de uso do aplicativo (seção 2.3).
+- Definição das principais funcionalidades do MVP (seção 2.4).
 ---
 
 *Para adicionar um novo registro, use o formato:*
