@@ -104,6 +104,14 @@ Este bloco registra mudanças de design realizadas após feedback de usuários o
 - Adicionado tópicos 2.5 e 2.6.
 ---
 
+## [1.0.4] - 2026-09-02
+
+### Adicionado
+
+- Continuação da documentação docs/estudo-de-caso.md.
+- Adicionado tópicos 2.7, 2.8 e conclusão 
+---
+
 *Para adicionar um novo registro, use o formato:*
 
 ```
