@@ -96,6 +96,14 @@ Este bloco registra mudanças de design realizadas após feedback de usuários o
 - Definição das principais funcionalidades do MVP (seção 2.4).
 ---
 
+## [1.0.3] - 2026-09-02
+
+### Adicionado
+
+- Continuação da documentação docs/estudo-de-caso.md.
+- Adicionado tópicos 2.5 e 2.6.
+---
+
 *Para adicionar um novo registro, use o formato:*
 
 ```
