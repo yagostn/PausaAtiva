@@ -14,11 +14,11 @@ Aplicativo mobile que lembra trabalhadores em atividade sentada de fazer pausas 
 
 | Nome | GitHub |
 |------|--------|
-| Antonio Henrique | @_Toinh1_ |
-| Caio Machado | @_caio-machado-dev_ |
-| João Pedro Oliveira | @_Guimaa6_ |
-| João Vitor Mendonça | @_JoaoVitorMS0_ |
-| Yago Santana | @_yagostn_ |
+| Antonio Henrique | [`@Toinh1`](https://github.com/Toinh1) |
+| Caio Machado | [`@caio-machado-dev`](https://github.com/caio-machado-dev) |
+| João Pedro Oliveira | [`@Guimaa6`](https://github.com/Guimaa6) |
+| João Vitor Mendonça | [`@JoaoVitorMS0`](https://github.com/JoaoVitorMS0) |
+| Yago Santana | [`@yagostn`](https://github.com/yagostn) |
 
 ---
 

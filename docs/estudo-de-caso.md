@@ -10,9 +10,7 @@ O *PausaAtiva* é um aplicativo mobile voltado a trabalhadores que permanecem lo
 
 ---
 
-## 2. Análise do projeto
-
-### 2.1 Problema
+## 2.1 Problema
 
 **Qual problema o aplicativo pretende ajudar a solucionar?**
 
@@ -33,18 +31,18 @@ Ele é relevante por três implicações simultâneas, todas presentes no materi
 A necessidade central é **ser lembrado de pausar e conseguir cumprir essa pausa em poucos minutos, sem expor o trabalhador nem interromper de forma agressiva o trabalho**. Tudo o mais no caso (dicas na tela do timer, guia visual, meta semanal, PDF) existe para sustentar esse hábito. Implicação para o desenvolvimento: priorizar o ciclo timer–lembrete–alongamento curto–registro, com tom discreto e dados sob controle do usuário — e não um sistema de RH, ranking ou vigilância, que o próprio roadmap deixa para versões futuras.
 
 ---
-### 2.2 Público e usuários
+## 2.2 Público e usuários
 
 O estudo de caso aponta um público principal — o trabalhador que permanece longos períodos sentado — e, no roadmap, um público institucional (empresa / RH) que **não** é usuário do MVP. A análise abaixo interpreta esses públicos em vez de apenas listá-los.
 
-#### Trabalhador em jornada sentada (usuário principal)
+### Trabalhador em jornada sentada (usuário principal)
 
 - **Quem é:** profissional que passa a maior parte do expediente em cadeira e tela (escritório, open space ou home office). É quem faz login, configura intervalos e usa as quatro telas (Timer, Alongamentos, Pausas, Relatório).
 - **Relação com o aplicativo:** é o dono da experiência. O app existe para ele, não para a chefia. Ele configura a própria jornada, recebe o lembrete e decide se cumpre a pausa. Os dados de histórico e relatório são pessoais.
 - **Necessidades:** lembrete no momento certo; pausa curta o suficiente para caber entre tarefas; alongamento que dá para fazer no posto de trabalho; acompanhar se as pausas realmente aconteceram; garantia de que o app não vira ferramenta de fiscalização.
 - **Situação de uso:** durante o expediente, muitas vezes com atenção na tarefa principal e o celular ao lado. A interação precisa ser rápida (iniciar/pausar o timer, seguir um exercício, dispensar o lembrete). Em mesa compartilhada, som e animação chamativa prejudicam a adoção.
 
-#### Variação do mesmo público: escritório compartilhado versus home office
+### Variação do mesmo público: escritório compartilhado versus home office
 
 Não são dois aplicativos, mas duas condições que mudam o projeto:
 
@@ -57,7 +55,7 @@ Não são dois aplicativos, mas duas condições que mudam o projeto:
 
 Essa distinção explica decisões já citadas no caso: notificação discreta, quatro telas enxutas e a proibição explícita de monitorar produtividade.
 
-#### Empresa e RH (público citado no roadmap, fora do MVP)
+### Empresa e RH (público citado no roadmap, fora do MVP)
 
 - **Quem é:** organização que, em versões futuras, poderia ter gestão de funcionários, dashboard e relatórios corporativos anônimos.
 - **Relação com o aplicativo hoje:** indireta. No MVP o app é individual (conta do trabalhador, dados da pessoa, timer local). Tratar RH como usuário agora invertiria a proposta de valor e chocaria com a restrição de privacidade.
@@ -67,7 +65,7 @@ Essa distinção explica decisões já citadas no caso: notificação discreta, 
 **Implicação para o desenvolvimento:** projetar autenticação, armazenamento e interface para o trabalhador como único usuário da versão 1.0. Qualquer dado extra (quais apps está usando, quanto produz) está fora do problema e fora do contrato de confiança descrito no estudo de caso.
 
 ---
-### 2.3 Contexto de uso
+## 2.3 Contexto de uso
 
 O PausaAtiva não é aberto no sofá, com tempo e atenção livres. Ele entra no expediente: a pessoa está na tarefa, o celular está ao lado do teclado e qualquer interação disputa segundos com o trabalho. O contexto de uso, portanto, é o que decide se o ciclo descrito no caso (timer → lembrete → alongamento → registro) vira hábito ou vira app desinstalado.
 
@@ -87,6 +85,9 @@ O horário configurável (início, fim e dias da jornada) existe porque o contex
 - **Rede instável ou ausente.** No escritório com Wi-Fi corporativo restrito ou em home office com queda de conexão, o timer e o histórico não podem depender da nuvem. Offline-first não é extra: é condição de continuidade.
 - **Celular que some da mão.** A pessoa tranca a tela, troca de app ou guarda o aparelho. O timer precisa persistir depois do fechamento; a notificação local precisa sobreviver sem o app em primeiro plano.
 - **Privacidade no ombro do colega.** Quem passa atrás da cadeira não deve ler produtividade, ranking nem dados pessoais. Timer e dica podem ficar visíveis; relatório e histórico ficam em abas acessadas de propósito.
+- **Dispositivo modesto e secundário.** O estudo de caso fixa Android 7.0 (API 24) como piso. Isso não é só um número de compatibilidade: implica aparelhos antigos, com pouca memória e bateria já desgastada. Um timer que roda em segundo plano o dia inteiro precisa ser barato em consumo, ou o próprio sistema o encerra — e o usuário perde a pausa sem entender por quê.
+- **Iluminação fora de controle.** O estudo de caso não trata de iluminação, mas os ambientes que ele descreve variam muito: sala com luz fria e forte, mesa perto de janela com reflexo na tela, home office à noite com luz baixa. Como a leitura acontece em segundos e de relance, o contraste do texto e do contador precisa se sustentar nos dois extremos, e a informação não pode depender apenas de cor — o estado do timer também tem de ser legível por texto, forma ou posição.
+- **Ausência de urgência — e é justamente esse o ponto.** O estudo de caso não descreve nenhuma situação de emergência, e essa constatação tem consequência de projeto. O lembrete de pausa é a interrupção de **menor** prioridade na tela do trabalhador: ele sempre perde para uma ligação, uma reunião ou um prazo. Por isso não cabe alerta em tela cheia, som insistente ou repetição até o usuário responder — padrões legítimos num app de saúde emergencial e destrutivos aqui. O lembrete deve poder ser ignorado sem culpa e sem penalidade, e voltar no próximo ciclo.
 
 **Fluxo real, não o fluxo do menu**
 
@@ -96,42 +97,33 @@ Login (primeira vez) → configurar intervalo, duração, tipo de lembrete e hor
 
 Alongar, Pausas e Relatório sustentam o hábito (orientação, histórico, meta, PDF). Eles não podem atrasar o laço principal. Se a configuração inicial for longa ou o primeiro lembrete for invasivo, o contexto de uso mata o produto antes da segunda pausa.
 
-**Implicação para o desenvolvimento:** tratar o expediente como ambiente hostil à interrupção. Priorizar persistência do timer, notificação local configurável, funcionamento sem internet e interface que se resolve em segundos — em vez de telas densas, fluxos longos de onboarding ou qualquer recurso que exija atenção contínua no celular.
+**Implicação para o desenvolvimento:** tratar o expediente como ambiente hostil à interrupção. Priorizar persistência do timer, notificação local configurável (ver 2.7, *Notificações*), funcionamento sem internet e interface que se resolve em segundos — em vez de telas densas, fluxos longos de onboarding ou qualquer recurso que exija atenção contínua no celular.
 
 ---
-### 2.4 Funcionalidades
+## 2.4 Objetivo e proposta de valor
 
-As funcionalidades do MVP não formam uma lista de desejos. Elas fecham o ciclo de adesão definido em 2.1 e cabem no contexto de 2.3. O que não sustenta esse ciclo — gestão de equipe, dashboard de RH, ranking, backup em nuvem, iOS — fica no roadmap e fora da versão 1.0.
+**O que o aplicativo pretende oferecer**
 
-**Núcleo: lembrar, pausar, orientar, registrar**
+O estudo de caso resume o produto em uma frase: *"o colega de trabalho que te lembra de levantar da cadeira antes que sua coluna grite"*. Lida como definição de escopo, ela diz três coisas. O PausaAtiva é um **colega**, não um supervisor — quem decide se a pausa acontece é o trabalhador. Ele age **antes** do sintoma, o que o posiciona na prevenção e não no tratamento. E ele atua **na cadeira**, dentro do expediente, não na academia depois do trabalho.
 
-| Função | O que faz no caso | Por que existe |
-|---|---|---|
-| Timer com contagem regressiva | Iniciar, pausar, retomar e encerrar o intervalo | É o motor do hábito. Sem persistência após fechar o app, o lembrete some no primeiro bloqueio de tela. |
-| Notificação local discreta | Avisa no fim do intervalo; padrão silencioso, com vibração ou som suave | Resolve o “nada me interrompe de forma aceitável”. Se for invasiva, o usuário desliga o canal e o produto acaba. |
-| Guia visual de alongamento | Sequências curtas (até 3 minutos), ilustração + cronômetro por exercício | Transforma o lembrete em pausa executável no posto, sem aula de fisioterapia nem sair da cadeira. |
-| Configuração da jornada | Intervalo (30, 45, 60, 90 min), duração (1, 2, 3 min), tipo de lembrete, horário e dias | Adapta o ciclo à pessoa (prazos, aulas, open space). Configuração errada vira interrupção inútil. |
-| Dicas ergonômicas | Texto curto na tela do Timer, alinhado à NR-17 | Orienta postura no momento em que o app já está aberto — sem virar conteúdo separado que ninguém lê. |
+Na prática, o que o aplicativo entrega não é um cronômetro. É um ciclo curto que se repete várias vezes por dia — lembrar, orientar, registrar — e que o usuário não precisa se lembrar de acionar. Os objetivos listados no estudo de caso (incentivar pausas, prevenir desconfortos, promover hábitos ergonômicos, orientar alongamentos e acompanhar a realização) não são cinco funcionalidades paralelas: são um único objetivo, visto em etapas diferentes do mesmo ciclo.
 
-Esse conjunto responde à necessidade central: ser lembrado e conseguir cumprir a pausa em poucos minutos, sem exposição.
+**Qual benefício o usuário recebe**
 
-**Sustentação: ver que as pausas aconteceram**
+O benefício imediato é **não depender da própria memória nem da própria disciplina** para cuidar da postura durante o trabalho. Quem passa o dia sentado já sabe que deveria levantar; o que falta não é informação, é algo que interrompa no momento certo e de forma aceitável no ambiente profissional. O aplicativo assume essa responsabilidade no lugar do usuário.
 
-Histórico local, relatório semanal (gráfico de barras, total e meta) e exportação em PDF não iniciam a pausa. Eles fecham o ciclo de confiança: a pessoa vê se o hábito existe e, se quiser, leva o consolidado para si ou para uma conversa (por exemplo, com RH), **por iniciativa própria**. Por isso o relatório vive em aba própria e não na tela principal.
+O benefício de médio prazo é **enxergar o próprio hábito**. Histórico, relatório semanal e meta transformam uma intenção vaga ("preciso me mexer mais") em um dado verificável. A exportação em PDF estende esse benefício para fora do aplicativo, mas **por iniciativa do usuário**: é ele quem decide levar o consolidado a um médico ou ao RH.
 
-**Infraestrutura que o usuário não vê, mas o caso exige**
+**A proposta de valor também está no que o aplicativo se recusa a fazer**
 
-- **Armazenamento local (Hive) e modo offline.** Timer, configurações e histórico precisam sobreviver sem rede. Sincronização avançada via Firebase é evolução, não pré-requisito do MVP.
-- **Quatro abas (Timer, Alongar, Pausas, Relatório).** Recortam o produto no essencial. Mais telas no primeiro release diluem o laço curto descrito em 2.3.
-- **Conta individual.** Login existe para separar o dado da pessoa. Não implica, na 1.0, painel da empresa nem leitura do que o trabalhador faz no computador.
+Aqui está a diferença em relação a um alarme comum ou a um aplicativo de produtividade. O estudo de caso lista explicitamente o que o PausaAtiva **não** deve monitorar: aplicativos utilizados, navegação, teclas pressionadas, capturas de tela, produtividade e conteúdo acessado.
 
-**O que deliberadamente não é funcionalidade agora**
+Essa recusa não é uma restrição técnica lateral — é parte do valor entregue. Um aplicativo instalado no celular de quem trabalha só é adotado se não for percebido como ferramenta de fiscalização. O mesmo raciocínio vale para a discrição dos lembretes: um alarme alto em um open space não é apenas ruído de interface, é constrangimento, e o usuário resolve isso desligando a notificação. Nos dois casos, **o aplicativo perde o usuário no momento em que passa a incomodar** — seja incomodando o corpo social ao redor, seja incomodando a sensação de privacidade.
 
-Monitorar aplicativos, teclado, navegação ou produtividade; gamificação visível (conquistas, ranking); gestão de funcionários; relatórios corporativos automáticos. O caso cita parte disso como restrição ou como futuro. Incluir agora inverteria o usuário (de trabalhador para fiscal) e chocaria com o contrato de privacidade.
-
-**Implicação para o desenvolvimento:** implementar primeiro o núcleo timer–notificação–alongamento–configuração, com persistência local. Relatório e PDF vêm em seguida, como leitura do que já foi registrado. Qualquer tela ou API que observe o comportamento no computador está fora do escopo da análise e da versão 1.0.
+**Implicação para o desenvolvimento:** o valor do PausaAtiva se mede pela pausa que efetivamente aconteceu, não pela quantidade de recursos na tela. Isso ordena as prioridades: primeiro a confiabilidade do ciclo — timer que sobrevive ao fechamento do aplicativo, lembrete que chega e não constrange, alongamento que cabe no posto de trabalho —, depois a leitura desse histórico. Qualquer recurso que aumente a fricção do ciclo, ou que aproxime o aplicativo da vigilância, reduz a proposta de valor mesmo parecendo uma funcionalidade a mais.
 
 ---
+
 ## 2.5 Personalidade, identidade e experiência
 
 O PausaAtiva foi concebido como um produto:
@@ -175,6 +167,19 @@ Exemplo:
 
 > **Hora de cuidar da postura. Que tal uma pausa de 3 minutos?**
 
+### Tom da experiência do usuário
+
+O tom da interface é o que o aplicativo **diz**; o tom da experiência é como ele **se comporta** ao longo do dia. São coisas diferentes, e a segunda pesa mais na adesão: um texto gentil não compensa um lembrete que insiste.
+
+A experiência do PausaAtiva deve ser **discreta por padrão e permissiva diante da recusa**. Na prática:
+
+- **O aplicativo entra e sai de cena rápido.** Ele aparece quando o intervalo termina e desaparece assim que a pausa é concluída ou dispensada. Não tenta reter o usuário com telas extras, sugestões ou conteúdo adicional.
+- **Recusar é uma resposta legítima.** Se a pessoa ignora o lembrete, o aplicativo não repete, não cobra e não registra aquilo como falha. Ele apenas volta no ciclo seguinte. Nada de "você perdeu 4 pausas esta semana".
+- **A conquista é sóbria.** Concluir uma pausa gera uma confirmação discreta, não uma comemoração. Animação chamativa ou som de vitória trai o ambiente compartilhado descrito em 2.3 — e o roadmap deixa a gamificação para versões futuras.
+- **O erro nunca é do usuário.** Quando algo não acontece (lembrete atrasado, dado não sincronizado), a mensagem explica o estado sem atribuir culpa.
+
+**Implicação para o desenvolvimento:** essa combinação — interface tranquila e comportamento que aceita ser ignorado — é o que sustenta a metáfora do "colega de trabalho". Um colega lembra uma vez e respeita a resposta. Um aplicativo que insiste vira alarme, e alarme se desliga. Por isso a experiência deve ser projetada assumindo que **a maior parte dos lembretes será dispensada**, e que isso é um resultado aceitável, não um problema a corrigir com mais insistência.
+
 ### Como o aplicativo deseja ser lembrado
 
 O PausaAtiva deverá ser lembrado como uma ferramenta simples que ajuda o usuário a cuidar da postura durante o trabalho sem incomodar e sem funcionar como instrumento de vigilância.
@@ -194,8 +199,9 @@ O MVP está organizado em quatro telas principais:
 |---|---|
 | **Timer de pausas** | Controlar o tempo até a próxima pausa. |
 | **Iniciar, pausar, retomar e encerrar** | Dar controle ao usuário sobre o timer. |
+| **Dicas ergonômicas** | Orientar a postura no momento em que o aplicativo já está aberto, alinhado à NR-17, sem virar conteúdo separado que ninguém lê. |
 | **Notificações discretas** | Lembrar o usuário sem interromper excessivamente o trabalho. |
-| **Adiar lembrete** | Permitir que o usuário finalize uma atividade antes da pausa. |
+| **Adiar lembrete** *(proposta do grupo)* | Permitir que o usuário finalize uma atividade antes da pausa. |
 | **Guia de alongamentos** | Orientar exercícios rápidos durante a pausa. |
 | **Cronômetro do exercício** | Controlar a duração dos movimentos. |
 | **Indicador de progresso** | Mostrar a etapa atual da sequência de exercícios. |
@@ -238,6 +244,30 @@ Também será possível configurar:
 - Horário de fim do expediente;
 - Dias ativos da semana;
 - Comportamento dos lembretes fora do expediente.
+
+### Leitura das funcionalidades: por que cada bloco existe
+
+As funcionalidades acima não formam uma lista de desejos. Elas fecham o ciclo de adesão descrito em 2.1 e cabem no contexto de 2.3.
+
+**Núcleo: lembrar, pausar, orientar, registrar**
+
+Timer, notificação discreta, guia de alongamento, dicas ergonômicas e configuração da jornada são o motor do hábito, e cada um falha de um jeito específico. Sem persistência após o fechamento do aplicativo, o lembrete some no primeiro bloqueio de tela. Se a notificação for invasiva, o usuário desliga o canal — e o produto acaba ali. Se o alongamento exigir sair do posto, a pausa é adiada indefinidamente. E uma configuração mal ajustada (intervalo curto demais, horário errado) transforma o lembrete em interrupção inútil. Esse conjunto responde à necessidade central identificada em 2.1: ser lembrado e conseguir cumprir a pausa em poucos minutos, sem exposição.
+
+**Sustentação: ver que as pausas aconteceram**
+
+Histórico, relatório semanal (gráfico, tempo total e meta) e exportação em PDF não iniciam pausa nenhuma. Eles fecham o ciclo de confiança: a pessoa verifica se o hábito existe de fato e, se quiser, leva o consolidado adiante por iniciativa própria. Por isso o relatório vive em aba separada e não na tela inicial, que pertence ao timer.
+
+**Infraestrutura que o usuário não vê**
+
+- **Armazenamento local e modo offline.** Timer, configurações e histórico precisam sobreviver sem rede. A sincronização com o Cloud Firestore é complemento, não pré-requisito do ciclo.
+- **Quatro abas (Timer, Alongar, Pausas, Relatório).** Recortam o produto no essencial. Mais telas no primeiro release diluiriam o laço curto descrito em 2.3.
+- **Conta individual (Firebase Authentication).** O login existe para separar o dado de cada pessoa. Não implica, na versão 1.0, painel da empresa nem leitura do que o trabalhador faz no computador.
+
+**O que deliberadamente não é funcionalidade agora**
+
+Monitorar aplicativos, teclado, navegação ou produtividade; gamificação visível; gestão de funcionários; relatórios corporativos. O estudo de caso cita parte disso como restrição de privacidade e parte como evolução futura. Antecipar esses itens inverteria o usuário — de trabalhador para fiscalizado — e quebraria o contrato descrito em 2.4.
+
+**Implicação para o desenvolvimento:** implementar primeiro o núcleo timer–notificação–alongamento–configuração, com persistência local. Relatório e PDF vêm em seguida, como leitura do que já foi registrado.
 
 ---
 
@@ -283,9 +313,31 @@ O objetivo é acompanhar pausas e configurações ergonômicas, e não vigiar o 
 
 A navegação entre as quatro áreas principais deverá ser simples e rápida.
 
+### Número de interações
+
+O estudo de caso não fixa um limite numérico, mas o contexto analisado em 2.3 impõe um: o aplicativo é usado durante o expediente, com atenção dividida. Assumimos como restrição de projeto que as ações do ciclo principal se resolvam em **até dois toques** a partir da tela inicial ou da notificação — iniciar o timer, abrir a sequência de alongamento a partir do lembrete, concluir a pausa. A configuração inicial pode ser mais longa, por ser feita uma única vez, mas não deve bloquear o primeiro uso: o aplicativo precisa funcionar com valores padrão antes de qualquer ajuste.
+
+### Tamanho do aplicativo
+
+Também não há número definido no estudo de caso. A restrição vem do público e do dispositivo: com suporte a partir do Android 7.0, parte dos aparelhos terá pouco espaço livre. Como o aplicativo resolve um problema de saúde que o usuário ainda não considera urgente, um download pesado é motivo suficiente para a desistência antes da instalação. Isso desaconselha vídeo nas sequências de alongamento — as ilustrações estáticas previstas no estudo de caso já atendem — e recomenda manter os recursos visuais enxutos.
+
+### Acessibilidade
+
+O estudo de caso não trata de acessibilidade de forma explícita, mas as condições que ele descreve já a exigem, e o próprio propósito do produto reforça isso: um aplicativo voltado a desconforto físico não pode excluir quem já convive com alguma limitação.
+
+- **Não depender apenas de cor.** O estado do timer (rodando, pausado, concluído) precisa ser identificável por texto, forma ou posição, e não só pela cor — condição que também resolve a variação de iluminação analisada em 2.3.
+- **Área de toque confortável.** Os controles do ciclo principal são acionados de relance, muitas vezes com o aparelho na mesa. Alvos pequenos aumentam o erro justamente no momento de menor atenção.
+- **Contraste e tipografia legíveis.** Texto pequeno ou de baixo contraste inviabiliza a leitura em segundos que o contexto exige.
+- **Compatibilidade com leitor de tela.** Ícones sem rótulo textual (as quatro abas, os controles do timer) precisam de descrição associada.
+- **Não depender de som.** Como o lembrete silencioso é o padrão previsto, nenhuma informação essencial pode existir apenas em áudio — o que atende igualmente quem tem perda auditiva e quem trabalha em ambiente compartilhado.
+
 ### Notificações
 
 Os lembretes precisam ser discretos para evitar interrupções excessivas durante o trabalho.
+
+**Restrição derivada: o lembrete não pode depender de conexão.** O estudo de caso indica o Firebase Cloud Messaging (FCM) como serviço de notificações push e, ao mesmo tempo, exige funcionamento offline das funções essenciais. Os dois requisitos entram em conflito no ponto mais crítico do produto: uma notificação push não chega sem internet, e o lembrete de pausa é justamente a função que não pode falhar quando a rede cai.
+
+A consequência para o projeto é que o lembrete do ciclo de pausas precisa ser uma **notificação local agendada no próprio dispositivo**, disparada pelo timer, sem depender de servidor. O FCM permanece útil como complemento — avisos gerais, mensagens do sistema ou recursos futuros que envolvam servidor —, mas não pode ser o mecanismo responsável pelo lembrete principal. Essa é a restrição técnica mais determinante identificada nesta análise, porque contraria a leitura mais direta do estudo de caso.
 
 ### Duração dos alongamentos
 
