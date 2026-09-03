@@ -16,7 +16,7 @@ Aplicativo mobile que lembra trabalhadores em atividade sentada de fazer pausas 
 |------|--------|
 | Antonio Henrique | @_Toinh1_ |
 | Caio Machado | @_caio-machado-dev_ |
-| João Pedro Oliveira | @_Guimaa6 _ |
+| João Pedro Oliveira | @_Guimaa6_ |
 | João Vitor Mendonça | @_JoaoVitorMS0_ |
 | Yago Santana | @_yagostn_ |
 
