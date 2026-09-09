@@ -2,6 +2,16 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.3.0] — 09/09/2026
+
+### Adicionado
+- `docs/pesquisa.md`: pesquisa de fundamentação com informações sobre sedentarismo ocupacional, necessidades e dificuldades dos usuários, dados sobre LER/DORT e impacto cognitivo das micropausas. Inclui 3 fontes confiáveis (OMS, Ministério da Saúde, Harvard Health) e 3 descobertas com influência direta no projeto — *Antonio Henrique*
+- `docs/benchmark.md`: análise comparativa de 3 soluções existentes (Stretchly, Stand Up! e Moova), com funcionalidades, pontos positivos e negativos, aspectos de interface/experiência, o que pode ser aproveitado ou melhorado em cada solução, conclusão com 6 diferenciais do PausaAtiva e seção de fontes consultadas com links — *Caio Machado*
+
+### Alterado
+- `docs/benchmark.md`: Solução 3 substituída de WorkRave (desktop) por Moova/StretchMinder (Android e iOS), tornando a análise mais aderente ao contexto de aplicação mobile do projeto — *Caio Machado*
+- `docs/benchmark.md`: links das fontes consultadas adicionados em cada solução e organizados em seção dedicada ao final do documento — *Caio Machado*
+
 ## [0.2.0] — 03/09/2026
 
 ### Adicionado
