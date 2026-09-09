@@ -7,10 +7,12 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 ### Adicionado
 - `docs/pesquisa.md`: pesquisa de fundamentação com informações sobre sedentarismo ocupacional, necessidades e dificuldades dos usuários, dados sobre LER/DORT e impacto cognitivo das micropausas. Inclui 3 fontes confiáveis (OMS, Ministério da Saúde, Harvard Health) e 3 descobertas com influência direta no projeto — *Antonio Henrique*
 - `docs/benchmark.md`: análise comparativa de 3 soluções existentes (Stretchly, Stand Up! e Moova), com funcionalidades, pontos positivos e negativos, aspectos de interface/experiência, o que pode ser aproveitado ou melhorado em cada solução, conclusão com 6 diferenciais do PausaAtiva e seção de fontes consultadas com links — *Caio Machado*
+- `docs/personas.md`: criação de 2 personas principais do PausaAtiva, Lucas Almeida (desenvolvedor em home office) e Mariana Souza (assistente administrativa em escritório compartilhado), contemplando perfil/contexto, objetivos, necessidades, dores, comportamentos e relação com o aplicativo. Lucas foi definido como persona prioritária por representar de forma mais completa o fluxo e as funcionalidades centrais do MVP — *Yago Santana*
 
 ### Alterado
 - `docs/benchmark.md`: Solução 3 substituída de WorkRave (desktop) por Moova/StretchMinder (Android e iOS), tornando a análise mais aderente ao contexto de aplicação mobile do projeto — *Caio Machado*
 - `docs/benchmark.md`: links das fontes consultadas adicionados em cada solução e organizados em seção dedicada ao final do documento — *Caio Machado*
+- `docs/personas.md`: definição de Lucas Almeida como persona prioritária e refinamento das necessidades do MVP a partir dos dois contextos de uso analisados — home office e escritório compartilhado — destacando requisitos de lembretes discretos, pausas configuráveis, privacidade, funcionamento em segundo plano e acompanhamento do histórico — *Yago Santana*
 
 ## [0.2.0] — 03/09/2026
 
