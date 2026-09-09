@@ -57,6 +57,7 @@ Entregas: [`docs/pesquisa.md`](docs/pesquisa.md)
 
 | Integrante | Responsabilidade nesta atividade |
 |------------|----------------------------------|
+| Antonio Henrique | Pesquisa |
 | Caio Machado | Benchmark |
 | Yago Santana | Personas |
 | João Vitor | Slide De Apresentação |
