@@ -48,6 +48,22 @@ Entrega: [`docs/estudo-de-caso.md`](docs/estudo-de-caso.md)
 
 ---
 
+---
+
+## Atividade 02 — Pesquisa, Benchmark e Personas
+
+Entrega: [`docs/estudo-de-caso.md`](docs/estudo-de-caso.md)
+
+### Responsabilidade de cada integrante
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| Caio Machado | Benchmark |
+| Yago Santana | Personas |
+| João Vitor | Slide De Apresentação |
+
+---
+
 ## Estrutura do repositório
 
 ```
