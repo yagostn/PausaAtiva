@@ -48,11 +48,10 @@ Entrega: [`docs/estudo-de-caso.md`](docs/estudo-de-caso.md)
 
 ---
 
----
 
 ## Atividade 02 — Pesquisa, Benchmark e Personas
 
-Entrega: [`docs/estudo-de-caso.md`](docs/estudo-de-caso.md)
+Entregas: [`docs/pesquisa.md`](docs/pesquisa.md)
 
 ### Responsabilidade de cada integrante
 
