@@ -2,6 +2,15 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.4.0] — 16/09/2026
+
+### Adicionado
+- `docs/requisitos.md`: criação do documento de requisitos e inclusão do tópico **2.1 Funcionalidades**, com oito funcionalidades principais descritas por nome, descrição, necessidade do usuário atendida e justificativa — *João Pedro Oliveira*
+
+### Alterado
+- `README.md`: inclusão da Atividade 03, do link para o documento de requisitos e da responsabilidade de João Pedro Oliveira pelo tópico 2.1.
+- `README.md`: atualização da estrutura do repositório para refletir os documentos existentes.
+
 ## [0.3.0] — 09/09/2026
 
 ### Adicionado
