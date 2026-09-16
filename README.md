@@ -75,10 +75,13 @@ Entrega: [`docs/requisitos.md`](docs/requisitos.md)
 | Yago Santana | Tópico 2.2 — levantamento e documentação dos requisitos funcionais do aplicativo |
 | Antonio Henrique | Tópico 2.3 – levantamento e documentação dos requisitos não funcionais do aplicativo |
 | Caio Machado | Tópico 2.4 — identificação e documentação das operações de CRUD do aplicativo |
+| João Vitor | Tópico 2.5 — classificação e priorização das funcionalidades do aplicativo |
 
 O tópico 2.2 documenta 18 requisitos funcionais, abrangendo cadastro e login, timer, configuração das pausas, notificações, alongamentos, ergonomia, histórico, relatório semanal, exportação em PDF, funcionamento offline e sincronização dos dados.
 
 O tópico 2.4 identifica, para conta, configurações de pausa, histórico, relatório/PDF e conteúdo estático, o que precisa ser criado, consultado, atualizado ou excluído, e justifica as operações que não se aplicam.
+
+O tópico 2.5 classifica as 8 funcionalidades do PausaAtiva em três níveis de prioridade: essenciais, importantes e secundárias, considerando sua necessidade para a proposta principal do aplicativo e o valor agregado ao usuário.
 
 ---
 
