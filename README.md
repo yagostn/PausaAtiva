@@ -64,13 +64,30 @@ Entregas: [`docs/pesquisa.md`](docs/pesquisa.md)
 
 ---
 
+## Atividade 03 — Levantamento de Requisitos
+
+Entrega: [`docs/requisitos.md`](docs/requisitos.md)
+
+### Responsabilidade registrada
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| João Pedro Oliveira | Tópico 2.1 — definição e documentação das funcionalidades do aplicativo |
+
+---
+
 ## Estrutura do repositório
 
 ```
 README.md
 CHANGELOG.md
 docs/
-└── estudo-de-caso.md
+├── apresentacao.pdf
+├── benchmark.md
+├── estudo-de-caso.md
+├── personas.md
+├── pesquisa.md
+└── requisitos.md
 ```
 
 ---
