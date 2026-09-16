@@ -149,3 +149,23 @@ O sistema deve permitir o funcionamento do timer, das configurações, dos along
 
 ### RF18 — Sincronizar dados quando houver conexão
 O sistema deve sincronizar com o Firebase os dados armazenados localmente quando houver conexão disponível, preservando o histórico e as configurações do usuário.
+
+## 2.3 Requisitos não funcionais
+
+### RNF01 — Usabilidade
+O aplicativo deve permitir que o usuário inicie a funcionalidade principal (Timer de Pausa) em, no máximo, 3 toques a partir da abertura do app.
+
+### RNF02 — Acessibilidade e Identidade Visual
+A interface deve utilizar tons sóbrios (azul e verde corporativo) com alto contraste para leitura em ambientes de escritório e home office, além de contar com ilustrações claras nos alongamentos.
+
+### RNF03 — Segurança e Privacidade (LGPD)
+O aplicativo não deve monitorar programas abertos, teclas digitadas, tela ou produtividade do usuário, limitando-se a armazenar apenas as configurações e histórico de pausas.
+
+### RNF04 — Conectividade (Offline-First)
+As funções essenciais (Timer, Alongamentos e Notificações locais) devem funcionar sem conexão com a internet. A sincronização com o Firebase ocorrerá apenas quando houver conexão disponível.
+
+### RNF05 — Desempenho e Discreção
+Os alertas de pausa devem utilizar notificações locais com avisos auditivos e visuais suaves para evitar interrupções abruptas ou ansiedade durante o trabalho.
+
+### RNF06 — Compatibilidade
+O aplicativo deve ser compatível com dispositivos móveis rodando o sistema operacional Android 7.0 (API nível 24) ou superior.
