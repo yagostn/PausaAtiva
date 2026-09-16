@@ -144,12 +144,6 @@ O sistema deve gerar um relatório semanal contendo quantidade de pausas conclu�
 ### RF16 — Exportar relatório em PDF
 O sistema deve permitir que o usuário gere e exporte localmente o relatório de pausas em formato PDF.
 
-### RF17 — Manter funções essenciais offline
-O sistema deve permitir o funcionamento do timer, das configurações, dos alongamentos e do registro das pausas mesmo quando o dispositivo estiver sem conexão com a internet.
-
-### RF18 — Sincronizar dados quando houver conexão
-O sistema deve sincronizar com o Firebase os dados armazenados localmente quando houver conexão disponível, preservando o histórico e as configurações do usuário.
-
 ## 2.3 Requisitos não funcionais
 
 ### RNF01 — Usabilidade
