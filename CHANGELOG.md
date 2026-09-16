@@ -2,6 +2,14 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.5.0] — 16/09/2026
+
+### Adicionado
+- `docs/requisitos.md`: inclusão do tópico **2.2 Requisitos funcionais**, com 18 requisitos funcionais numerados de RF01 a RF18, contemplando cadastro, login, timer, configuração de pausas, lembretes discretos, guia e cronômetro de alongamentos, dicas ergonômicas, histórico, relatório semanal, exportação em PDF, funcionamento offline e sincronização com Firebase — *Yago Santana*.
+
+### Alterado
+- `README.md`: registro da responsabilidade de Yago Santana pelo tópico 2.2 da Atividade 03 e resumo do escopo dos requisitos funcionais documentados.
+
 ## [0.4.0] — 16/09/2026
 
 ### Adicionado
