@@ -91,3 +91,61 @@ Permite conservar ou compartilhar as informações registradas no aplicativo de 
 
 **Justificativa:**  
 A exportação amplia a utilidade dos relatórios e integra o escopo previsto para o MVP do PausaAtiva.
+
+## 2.2 Requisitos funcionais
+
+Os requisitos funcionais abaixo transformam as funcionalidades principais do PausaAtiva em comportamentos objetivos que o sistema deverá executar.
+
+### RF01 — Cadastro de usuário
+O sistema deve permitir que o usuário crie uma conta informando os dados necessários para autenticação e uso do aplicativo.
+
+### RF02 — Login de usuário
+O sistema deve permitir que usuários cadastrados realizem login para acessar suas configurações, histórico e demais dados associados à conta.
+
+### RF03 — Iniciar timer de pausa
+O sistema deve permitir que o usuário inicie uma contagem regressiva para a próxima pausa ativa.
+
+### RF04 — Pausar e continuar timer
+O sistema deve permitir que o usuário pause e continue a contagem regressiva do timer durante a jornada de trabalho.
+
+### RF05 — Configurar intervalo entre pausas
+O sistema deve permitir que o usuário configure o intervalo de tempo entre uma pausa ativa e outra.
+
+### RF06 — Configurar duração da pausa
+O sistema deve permitir que o usuário configure a duração das pausas, respeitando a proposta de alongamentos rápidos de até três minutos.
+
+### RF07 — Configurar jornada e dias ativos
+O sistema deve permitir que o usuário defina o horário de início e fim da jornada de trabalho e selecione os dias em que os lembretes de pausa ficarão ativos.
+
+### RF08 — Configurar tipo de lembrete
+O sistema deve permitir que o usuário escolha o tipo de lembrete utilizado para avisar sobre o início de uma pausa, priorizando opções discretas e silenciosas.
+
+### RF09 — Enviar notificação de pausa
+O sistema deve emitir uma notificação quando o intervalo configurado pelo usuário for atingido, informando que é o momento de realizar uma pausa ativa.
+
+### RF10 — Exibir guia de alongamentos
+O sistema deve apresentar uma sequência de alongamentos rápidos com nome do exercício, ilustração, instruções e indicação do próximo movimento.
+
+### RF11 — Controlar tempo dos alongamentos
+O sistema deve exibir um cronômetro para cada exercício e indicar o progresso da sequência de alongamentos durante a pausa ativa.
+
+### RF12 — Exibir dicas ergonômicas
+O sistema deve apresentar orientações curtas sobre postura, posição da tela e ergonomia durante o uso do aplicativo.
+
+### RF13 — Registrar pausa realizada
+O sistema deve registrar a conclusão de cada pausa ativa, armazenando as informações necessárias para composição do histórico e dos relatórios.
+
+### RF14 — Consultar histórico de pausas
+O sistema deve permitir que o usuário consulte o histórico das pausas realizadas anteriormente.
+
+### RF15 — Gerar relatório semanal
+O sistema deve gerar um relatório semanal contendo quantidade de pausas concluídas, tempo total de pausas, comparação entre dias, gráfico e acompanhamento da meta semanal.
+
+### RF16 — Exportar relatório em PDF
+O sistema deve permitir que o usuário gere e exporte localmente o relatório de pausas em formato PDF.
+
+### RF17 — Manter funções essenciais offline
+O sistema deve permitir o funcionamento do timer, das configurações, dos alongamentos e do registro das pausas mesmo quando o dispositivo estiver sem conexão com a internet.
+
+### RF18 — Sincronizar dados quando houver conexão
+O sistema deve sincronizar com o Firebase os dados armazenados localmente quando houver conexão disponível, preservando o histórico e as configurações do usuário.
