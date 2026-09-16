@@ -169,3 +169,58 @@ Os alertas de pausa devem utilizar notificações locais com avisos auditivos e 
 
 ### RNF06 — Compatibilidade
 O aplicativo deve ser compatível com dispositivos móveis rodando o sistema operacional Android 7.0 (API nível 24) ou superior.
+
+## 2.4 CRUD
+
+O PausaAtiva persiste somente o que a experiência precisa: a conta, as preferências da jornada e as pausas concluídas. Relatório, PDF, guia de alongamentos e dicas não são cadastros do usuário. Onde uma operação não se aplica, a justificativa indica por que ela fugiria do que já está definido nos requisitos funcionais e não funcionais.
+
+### Conta do usuário
+
+| Operação | Aplicável | Descrição |
+|---|---|---|
+| Criar | Sim | O cadastro (RF01) cria a conta que vincula configurações e histórico a um trabalhador. |
+| Consultar | Sim | O login (RF02) recupera a conta e os dados associados a ela. |
+| Atualizar | Não | O MVP não prevê tela de perfil nem edição de e-mail ou senha. A conta serve para autenticar e separar os dados de cada pessoa. |
+| Excluir | Sim | O RNF03 limita a coleta e remete à LGPD. O trabalhador precisa poder apagar a conta e, com ela, as configurações e o histórico. Sem essa operação, o aplicativo reteria dado pessoal sem saída para quem é dono dele. |
+
+### Configurações de pausa
+
+Intervalo entre pausas, duração, horário de início e fim da jornada, dias ativos e tipo de lembrete.
+
+| Operação | Aplicável | Descrição |
+|---|---|---|
+| Criar | Sim | Na primeira utilização o sistema grava as preferências. Antes de qualquer ajuste, valem valores padrão, para o timer funcionar sem bloquear o primeiro uso. |
+| Consultar | Sim | O timer e a notificação de pausa leem essas preferências para decidir quando lembrar e de que forma. |
+| Atualizar | Sim | A rotina muda ao longo da semana. Os requisitos RF05 a RF08 existem para o usuário substituir intervalo, duração, jornada, dias ativos e tipo de lembrete. |
+| Excluir | Não | Há um único conjunto de configurações por conta. Apagá-lo deixaria o timer sem regra de funcionamento. Voltar ao padrão é uma atualização, não uma exclusão. |
+
+### Registro de pausas
+
+| Operação | Aplicável | Descrição |
+|---|---|---|
+| Criar | Sim | Ao concluir uma pausa, o sistema grava o registro que alimenta o histórico e o relatório (RF13). |
+| Consultar | Sim | O histórico (RF14), o relatório semanal (RF15) e a exportação em PDF (RF16) apenas leem esses registros. |
+| Atualizar | Não | A pausa concluída é um fato. Alterar data, duração ou quantidade mudaria o relatório e a meta, que existem para o usuário enxergar o hábito como ele ocorreu. Lembrete ignorado não gera registro, então não há dado a corrigir por edição. |
+| Excluir | Não | O histórico não se apaga registro a registro. A saída para os dados pessoais é a exclusão da conta, que remove configurações e histórico juntos. Apagar pausas isoladas permitiria ajustar o relatório depois do fato. |
+
+### Relatório semanal e PDF
+
+O relatório não é um dado cadastrado. Ele é calculado a partir dos registros de pausa no momento da consulta.
+
+| Operação | Aplicável | Descrição |
+|---|---|---|
+| Criar | Não | Não há cadastro de relatório. O PDF (RF16) é um arquivo gerado no dispositivo quando o usuário pede a exportação, não um registro mantido pelo aplicativo. |
+| Consultar | Sim | O usuário consulta o consolidado da semana na aba de relatório e o arquivo depois de exportar. |
+| Atualizar | Não | O consolidado não se edita. Uma nova pausa registrada já entra no cálculo da consulta seguinte. |
+| Excluir | Não | Não existe registro de relatório para apagar. O PDF exportado fica no aparelho, fora do armazenamento do aplicativo. |
+
+### Guia de alongamentos e dicas ergonômicas
+
+São conteúdo do aplicativo, não dado do usuário.
+
+| Operação | Aplicável | Descrição |
+|---|---|---|
+| Criar | Não | Exercícios e dicas acompanham o aplicativo. O usuário não cadastra alongamento. |
+| Consultar | Sim | O guia é exibido durante a pausa (RF10 e RF11) e as dicas aparecem no uso do aplicativo (RF12). |
+| Atualizar | Não | Mudar o conteúdo do guia é publicação de nova versão do aplicativo, não operação do usuário na jornada. |
+| Excluir | Não | Remover o guia deixaria a pausa sem orientação, que faz parte da proposta do PausaAtiva. |
