@@ -132,18 +132,6 @@ O sistema deve exibir um cronômetro para cada exercício e indicar o progresso 
 ### RF12 — Exibir dicas ergonômicas
 O sistema deve apresentar orientações curtas sobre postura, posição da tela e ergonomia durante o uso do aplicativo.
 
-### RF13 — Registrar pausa realizada
-O sistema deve registrar a conclusão de cada pausa ativa, armazenando as informações necessárias para composição do histórico e dos relatórios.
-
-### RF14 — Consultar histórico de pausas
-O sistema deve permitir que o usuário consulte o histórico das pausas realizadas anteriormente.
-
-### RF15 — Gerar relatório semanal
-O sistema deve gerar um relatório semanal contendo quantidade de pausas concluídas, tempo total de pausas, comparação entre dias, gráfico e acompanhamento da meta semanal.
-
-### RF16 — Exportar relatório em PDF
-O sistema deve permitir que o usuário gere e exporte localmente o relatório de pausas em formato PDF.
-
 ## 2.3 Requisitos não funcionais
 
 ### RNF01 — Usabilidade
