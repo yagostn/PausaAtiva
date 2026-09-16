@@ -48,7 +48,6 @@ Entrega: [`docs/estudo-de-caso.md`](docs/estudo-de-caso.md)
 
 ---
 
-
 ## Atividade 02 — Pesquisa, Benchmark e Personas
 
 Entregas: [`docs/pesquisa.md`](docs/pesquisa.md)
@@ -73,6 +72,9 @@ Entrega: [`docs/requisitos.md`](docs/requisitos.md)
 | Integrante | Responsabilidade nesta atividade |
 |------------|----------------------------------|
 | João Pedro Oliveira | Tópico 2.1 — definição e documentação das funcionalidades do aplicativo |
+| Yago Santana | Tópico 2.2 — levantamento e documentação dos requisitos funcionais do aplicativo |
+
+O tópico 2.2 documenta 18 requisitos funcionais, abrangendo cadastro e login, timer, configuração das pausas, notificações, alongamentos, ergonomia, histórico, relatório semanal, exportação em PDF, funcionamento offline e sincronização dos dados.
 
 ---
 
