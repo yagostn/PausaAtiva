@@ -224,3 +224,18 @@ São conteúdo do aplicativo, não dado do usuário.
 | Consultar | Sim | O guia é exibido durante a pausa (RF10 e RF11) e as dicas aparecem no uso do aplicativo (RF12). |
 | Atualizar | Não | Mudar o conteúdo do guia é publicação de nova versão do aplicativo, não operação do usuário na jornada. |
 | Excluir | Não | Remover o guia deixaria a pausa sem orientação, que faz parte da proposta do PausaAtiva. |
+
+## 2.5 Priorização das Funcionalidades
+
+### As funcionalidades foram classificadas de acordo com sua importância para a proposta principal do aplicativo **PausaAtiva**:
+
+| Código | Funcionalidade | Prioridade | Justificativa |
+|---|---|---|---|
+| F01 | Timer de Pausa Ativa | **Essencial** | É a funcionalidade central do aplicativo, responsável por controlar o tempo de trabalho e indicar quando o usuário deve realizar uma pausa. |
+| F02 | Configuração dos Intervalos de Pausa | **Essencial** | Permite adaptar os intervalos, duração das pausas e horário de trabalho à rotina do usuário, sendo fundamental para o funcionamento personalizado do timer. |
+| F03 | Notificações Discretas de Pausa | **Essencial** | Tem como objetivo lembrar o usuário de realizar as pausas no momento adequado, evitando que ele permaneça longos períodos sem interromper o trabalho. |
+| F04 | Guia Visual de Alongamentos | **Essencial** | Orienta o usuário durante a pausa, apresentando os exercícios e seus respectivos tempos, fazendo parte diretamente da proposta de pausas ativas. |
+| F05 | Dicas e Alertas de Postura | **Importante** | Contribui para a prevenção de problemas ergonômicos e melhora os hábitos durante o trabalho, mas o aplicativo ainda cumpre sua função principal sem esse recurso. |
+| F06 | Registro e Histórico de Pausas | **Importante** | Permite acompanhar as pausas realizadas e verificar a adesão do usuário, agregando valor ao acompanhamento dos hábitos. |
+| F07 | Relatório Semanal | **Importante** | Facilita a visualização da frequência e do tempo dedicado às pausas, ajudando o usuário a acompanhar seus hábitos ao longo da semana. |
+| F08 | Exportação do Relatório em PDF | **Secundária** | É um recurso complementar que permite salvar ou compartilhar os dados do relatório. O acompanhamento pode ser realizado diretamente pelo aplicativo. |
