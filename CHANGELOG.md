@@ -9,12 +9,14 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `docs/requisitos.md`: inclusão do tópico 2.2 Requisitos funcionais, com 18 requisitos funcionais numerados de RF01 a RF18, contemplando cadastro, login, timer, configuração de pausas, lembretes discretos, guia e cronômetro de alongamentos, dicas ergonômicas, histórico, relatório semanal, exportação em PDF, funcionamento offline e sincronização com Firebase — *Yago Santana*.
 - `docs/requisitos.md`: inclusão do tópico **2.3 Requisitos não funcionais**, contemplando usabilidade, acessibilidade, segurança/LGPD, modo offline, discreção e compatibilidade com Android 7.0+ – *Antonio Henrique*
 - `docs/requisitos.md`: inclusão do tópico **2.4 CRUD**, identificando o que precisa ser criado, consultado, atualizado ou excluído em conta, configurações de pausa, histórico, relatório/PDF e conteúdo estático, com justificativa das operações que não se aplicam — *Caio Machado*
+- `docs/requisitos.md`: inclusão do tópico 2.5 Priorização das Funcionalidades, classificando as oito funcionalidades principais do aplicativo em essenciais, importantes e secundárias, de acordo com sua relevância para a proposta principal e o valor agregado ao usuário — *João Vitor*.
 
 ### Alterado
 - `README.md`: inclusão da Atividade 03, do link para o documento de requisitos e da responsabilidade de João Pedro Oliveira pelo tópico 2.1.
 - `README.md`: atualização da estrutura do repositório para refletir os documentos existentes.
 - `README.md`: registro da responsabilidade de Yago Santana pelo tópico 2.2 da Atividade 03 e resumo do escopo dos requisitos funcionais documentados.
 - `README.md`: registro da responsabilidade de Caio Machado pelo tópico 2.4 da Atividade 03 e resumo do escopo do CRUD documentado.
+- `README.md`: registro da responsabilidade de João Vitor pelo tópico 2.5 da Atividade 03 e inclusão do resumo da classificação e priorização das funcionalidades documentadas.
 
 ## [0.3.0] — 09/09/2026
 
