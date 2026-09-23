@@ -85,6 +85,20 @@ O tópico 2.5 classifica as 8 funcionalidades do PausaAtiva em três níveis de 
 
 ---
 
+## Atividade 04 — Protótipo de baixa fidelidade
+
+Entregas: [`docs/prototipo-baixa-fidelidade.png`](docs/prototipo-baixa-fidelidade.png) · [`docs/prototipo-baixa-fidelidade.svg`](docs/prototipo-baixa-fidelidade.svg) · [Figma](https://www.figma.com/design/MJnlkIWOGdclrMMe4bS1tb)
+
+### Responsabilidade registrada
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| Caio Machado | Protótipo de baixa fidelidade das telas e do fluxo principal |
+
+O protótipo representa a estrutura e a navegação, sem a identidade visual final. Cobre as quatro áreas do MVP (Timer, Alongar, Pausas e Relatório) e o ciclo de login, configuração da jornada, timer, lembrete discreto, alongamento e registro da pausa.
+
+---
+
 ## Estrutura do repositório
 
 ```
@@ -92,10 +106,13 @@ README.md
 CHANGELOG.md
 docs/
 ├── apresentacao.pdf
+├── apresentacaoRequisitos.pdf
 ├── benchmark.md
 ├── estudo-de-caso.md
 ├── personas.md
 ├── pesquisa.md
+├── prototipo-baixa-fidelidade.png
+├── prototipo-baixa-fidelidade.svg
 └── requisitos.md
 ```
 

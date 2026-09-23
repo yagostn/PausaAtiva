@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="2040" viewBox="0 0 1680 2040">
+<rect width="1680" height="2040" fill="#f3f0e8"/>
+<text x="48" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1a1a1a">PausaAtiva — protótipo de baixa fidelidade</text>
+<text x="48" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#444">Wireframe estrutural: disposição, rótulos e fluxo. Sem cor de identidade, sem ilustração final e sem comemoração.</text>
+<g>
+<rect x="40" y="118" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="192" y="128" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="58" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="336" y="146" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="360" y="148" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="54" y1="168" x2="386" y2="168" stroke="#ddd" stroke-width="1"/>
+<rect x="192" y="196" width="56" height="56" rx="28" fill="#eee" stroke="#222" stroke-width="1.4"/>
+<text x="220" y="228" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#666" text-anchor="middle">ícone</text>
+<text x="220" y="276" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a" text-anchor="middle">PausaAtiva</text>
+<text x="220" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="middle">Pausas da sua jornada</text>
+<text x="58" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">E-mail</text>
+<rect x="58" y="336" width="324" height="36" rx="4" fill="#fff" stroke="#222" stroke-width="1.4"/>
+<text x="68" y="359" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">voce@email.com</text>
+<text x="58" y="394" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">Senha</text>
+<rect x="58" y="400" width="324" height="36" rx="4" fill="#fff" stroke="#222" stroke-width="1.4"/>
+<text x="68" y="423" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">••••••••</text>
+<rect x="58" y="472" width="324" height="44" rx="6" fill="#dedede" stroke="#222" stroke-width="2"/>
+<text x="220" y="499" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Entrar</text>
+<text x="220" y="544" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#1a1a1a" text-anchor="middle">Criar conta</text>
+<line x1="178" y1="548" x2="262" y2="548" stroke="#222" stroke-width="1.2"/>
+<text x="40" y="846" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">1  Login</text>
+<text x="40" y="866" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Só na primeira entrada. A conta separa os dados da</text>
+<text x="40" y="882" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">pessoa.</text>
+</g>
+<g>
+<rect x="450" y="118" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="602" y="128" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="468" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="746" y="146" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="770" y="148" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="464" y1="168" x2="796" y2="168" stroke="#ddd" stroke-width="1"/>
+<text x="468" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="start">Sua jornada</text>
+<text x="468" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">Intervalo entre pausas</text>
+<rect x="468" y="230" width="76.5" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="506.25" y="251" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">30</text>
+<rect x="550.5" y="230" width="76.5" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="588.75" y="251" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">45</text>
+<rect x="633" y="230" width="76.5" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="671.25" y="251" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">60</text>
+<rect x="715.5" y="230" width="76.5" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="753.75" y="251" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">90</text>
+<text x="468" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start">Duração da pausa</text>
+<rect x="468" y="294" width="104" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="520" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">1 min</text>
+<rect x="578" y="294" width="104" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="630" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">2 min</text>
+<rect x="688" y="294" width="104" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="740" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">3 min</text>
+<text x="468" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start">Tipo de lembrete</text>
+<rect x="468" y="358" width="18" height="18" rx="9" fill="#ccc" stroke="#222" stroke-width="2"/>
+<rect x="473" y="363" width="8" height="8" rx="4" fill="#222" stroke="none" stroke-width="1.5"/>
+<text x="496" y="372" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Silencioso</text>
+<rect x="468" y="394" width="18" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="496" y="408" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Vibração suave</text>
+<rect x="468" y="430" width="18" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="496" y="444" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Som discreto</text>
+<text x="468" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start">Expediente</text>
+<rect x="468" y="490" width="156" height="36" rx="4" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="478" y="512" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Início  08:00</text>
+<rect x="636" y="490" width="156" height="36" rx="4" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="646" y="512" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Fim  18:00</text>
+<text x="468" y="548" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1a1a1a" text-anchor="start">Dias ativos</text>
+<rect x="468" y="558" width="42" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="489" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Se</text>
+<rect x="514" y="558" width="42" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="535" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Te</text>
+<rect x="560" y="558" width="42" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="581" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Qa</text>
+<rect x="606" y="558" width="42" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="627" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Qi</text>
+<rect x="652" y="558" width="42" height="32" rx="6" fill="#e4e4e4" stroke="#222" stroke-width="2.2"/>
+<text x="673" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Sx</text>
+<rect x="698" y="558" width="42" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="719" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Sa</text>
+<rect x="744" y="558" width="42" height="32" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="765" y="579" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="middle">Do</text>
+<rect x="468" y="620" width="324" height="44" rx="6" fill="#dedede" stroke="#222" stroke-width="2"/>
+<text x="630" y="647" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Salvar</text>
+<text x="450" y="846" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">2  Configuração da jornada</text>
+<text x="450" y="866" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Feita uma vez. O timer já abre com valores padrão.</text>
+</g>
+<g>
+<rect x="860" y="118" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="1012" y="128" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="878" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="1156" y="146" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="1180" y="148" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="874" y1="168" x2="1206" y2="168" stroke="#ddd" stroke-width="1"/>
+<text x="1040" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#555" text-anchor="middle">PRÓXIMA PAUSA</text>
+<text x="1040" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#1a1a1a" text-anchor="middle">42:18</text>
+<rect x="962" y="292" width="156" height="28" rx="14" fill="#eee" stroke="#222" stroke-width="1.3"/>
+<text x="1040" y="311" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#1a1a1a" text-anchor="middle">Em andamento</text>
+<rect x="878" y="342" width="324" height="72" rx="6" fill="#f7f7f7" stroke="#222" stroke-width="1.3"/>
+<text x="890" y="364" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#333" text-anchor="start">Dica de postura</text>
+<text x="890" y="386" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">Apoie os pés no chão e</text>
+<text x="890" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#333" text-anchor="start">relaxe os ombros.</text>
+<rect x="878" y="438" width="157" height="44" rx="6" fill="#fff" stroke="#222" stroke-width="1.4"/>
+<text x="956.5" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Pausar</text>
+<rect x="1045" y="438" width="157" height="44" rx="6" fill="#fff" stroke="#222" stroke-width="1.4"/>
+<text x="1123.5" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Encerrar</text>
+<text x="878" y="512" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="start">Parado: o botão vira Iniciar.</text>
+<text x="878" y="530" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#555" text-anchor="start">Pausado: o botão vira Retomar.</text>
+<rect x="870" y="750" width="340" height="58" rx="0" fill="#fafafa" stroke="#222" stroke-width="1.2"/>
+<line x1="870" y1="750" x2="1210" y2="750" stroke="#222" stroke-width="1.2"/>
+<rect x="896.5" y="758" width="32" height="18" rx="3" fill="#d9d9d9" stroke="#333" stroke-width="1.8"/>
+<text x="912.5" y="794" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#222" text-anchor="middle">Timer</text>
+<rect x="981.5" y="758" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="997.5" y="794" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Alongar</text>
+<rect x="1066.5" y="758" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1082.5" y="794" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Pausas</text>
+<rect x="1151.5" y="758" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1167.5" y="794" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Relatório</text>
+<text x="860" y="846" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">3  Timer  ·  tela inicial</text>
+<text x="860" y="866" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Casa do app. Estado em texto: Em andamento, Pausado ou</text>
+<text x="860" y="882" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Parado.</text>
+</g>
+<g>
+<rect x="1270" y="118" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="1422" y="128" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="1288" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="1566" y="146" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="1590" y="148" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="1284" y1="168" x2="1616" y2="168" stroke="#ddd" stroke-width="1"/>
+<rect x="1288" y="188" width="324" height="150" rx="4" fill="#f3f3f3" stroke="#222" stroke-width="1"/>
+<text x="1450" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#888" text-anchor="middle">timer em segundo plano</text>
+<rect x="1288" y="356" width="324" height="168" rx="10" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="1300" y="378" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#555" text-anchor="start">PausaAtiva  ·  agora</text>
+<text x="1300" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">Hora de cuidar da postura.</text>
+<text x="1300" y="422" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Que tal uma pausa de 3 minutos?</text>
+<rect x="1300" y="438" width="96" height="34" rx="6" fill="#dedede" stroke="#222" stroke-width="2"/>
+<text x="1348" y="460" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle">Alongar</text>
+<rect x="1402" y="438" width="96" height="34" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="1450" y="460" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle">Adiar</text>
+<rect x="1504" y="438" width="96" height="34" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="1552" y="460" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#1a1a1a" text-anchor="middle">Dispensar</text>
+<text x="1288" y="552" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Alongar abre o guia.</text>
+<text x="1288" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Adiar empurra este ciclo.</text>
+<text x="1288" y="592" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#1a1a1a" text-anchor="start">Dispensar volta no próximo.</text>
+<text x="1288" y="620" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Sem repetir e sem cobrança.</text>
+<text x="1270" y="846" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">4  Lembrete discreto</text>
+<text x="1270" y="866" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Cartão local. Ignorar não vira falha.</text>
+</g>
+<line x1="400" y1="458" x2="442" y2="458" stroke="#222" stroke-width="1.6"/>
+<polygon points="450,458 440,453 440,463" fill="#222"/>
+<line x1="810" y1="458" x2="852" y2="458" stroke="#222" stroke-width="1.6"/>
+<polygon points="860,458 850,453 850,463" fill="#222"/>
+<line x1="1220" y1="458" x2="1262" y2="458" stroke="#222" stroke-width="1.6"/>
+<polygon points="1270,458 1260,453 1260,463" fill="#222"/>
+<line x1="1602" y1="874" x2="1602" y2="1070" stroke="#222" stroke-width="1.6"/>
+<polygon points="1602,1078 1597,1068 1607,1068" fill="#222"/>
+<text x="1512" y="896" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="start">Alongar</text>
+<g>
+<rect x="1270" y="1088" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="1422" y="1098" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="1288" y="1126" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="1566" y="1116" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="1590" y="1118" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="1284" y1="1138" x2="1616" y2="1138" stroke="#ddd" stroke-width="1"/>
+<text x="1288" y="1166" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#444" text-anchor="start">1 de 4</text>
+<rect x="1288" y="1176" width="75" height="8" rx="2" fill="#bbb" stroke="#222" stroke-width="1.2"/>
+<rect x="1370.5" y="1176" width="75" height="8" rx="2" fill="#fff" stroke="#222" stroke-width="1.2"/>
+<rect x="1453" y="1176" width="75" height="8" rx="2" fill="#fff" stroke="#222" stroke-width="1.2"/>
+<rect x="1535.5" y="1176" width="75" height="8" rx="2" fill="#fff" stroke="#222" stroke-width="1.2"/>
+<text x="1288" y="1208" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="start">Pescoço lateral</text>
+<rect x="1288" y="1220" width="324" height="150" rx="6" fill="#f4f4f4" stroke="#222" stroke-width="1.4"/>
+<line x1="1288" y1="1220" x2="1612" y2="1370" stroke="#bbb" stroke-width="1.2"/>
+<line x1="1612" y1="1220" x2="1288" y2="1370" stroke="#bbb" stroke-width="1.2"/>
+<text x="1450" y="1300" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#777" text-anchor="middle">ilustração</text>
+<text x="1288" y="1398" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Incline a cabeça devagar</text>
+<text x="1288" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">para o lado. Ombros baixos.</text>
+<text x="1450" y="1462" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1a1a1a" text-anchor="middle">00:20</text>
+<rect x="1288" y="1482" width="324" height="44" rx="6" fill="#dedede" stroke="#222" stroke-width="2"/>
+<text x="1450" y="1509" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Próximo</text>
+<text x="1450" y="1550" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="middle">Concluir pausa</text>
+<rect x="1280" y="1720" width="340" height="58" rx="0" fill="#fafafa" stroke="#222" stroke-width="1.2"/>
+<line x1="1280" y1="1720" x2="1620" y2="1720" stroke="#222" stroke-width="1.2"/>
+<rect x="1306.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1322.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Timer</text>
+<rect x="1391.5" y="1728" width="32" height="18" rx="3" fill="#d9d9d9" stroke="#333" stroke-width="1.8"/>
+<text x="1407.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#222" text-anchor="middle">Alongar</text>
+<rect x="1476.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1492.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Pausas</text>
+<rect x="1561.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1577.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Relatório</text>
+<text x="1270" y="1816" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">5  Alongamentos</text>
+<text x="1270" y="1836" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Sequência curta, no posto. Ilustração é só marcação.</text>
+</g>
+<g>
+<rect x="860" y="1088" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="1012" y="1098" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="878" y="1126" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="1156" y="1116" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="1180" y="1118" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="874" y1="1138" x2="1206" y2="1138" stroke="#ddd" stroke-width="1"/>
+<text x="878" y="1168" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="start">Histórico</text>
+<rect x="878" y="1190" width="324" height="68" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="890" y="1218" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">Hoje  ·  14:32</text>
+<text x="890" y="1240" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#444" text-anchor="start">3 min  ·  Concluída</text>
+<rect x="878" y="1268" width="324" height="68" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="890" y="1296" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">Hoje  ·  11:05</text>
+<text x="890" y="1318" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#444" text-anchor="start">3 min  ·  Concluída</text>
+<rect x="878" y="1346" width="324" height="68" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="890" y="1374" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">Ontem  ·  16:40</text>
+<text x="890" y="1396" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#444" text-anchor="start">2 min  ·  Concluída</text>
+<rect x="878" y="1424" width="324" height="68" rx="6" fill="#fff" stroke="#222" stroke-width="1.3"/>
+<text x="890" y="1452" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">Ontem  ·  10:12</text>
+<text x="890" y="1474" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#444" text-anchor="start">3 min  ·  Concluída</text>
+<rect x="870" y="1720" width="340" height="58" rx="0" fill="#fafafa" stroke="#222" stroke-width="1.2"/>
+<line x1="870" y1="1720" x2="1210" y2="1720" stroke="#222" stroke-width="1.2"/>
+<rect x="896.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="912.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Timer</text>
+<rect x="981.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="997.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Alongar</text>
+<rect x="1066.5" y="1728" width="32" height="18" rx="3" fill="#d9d9d9" stroke="#333" stroke-width="1.8"/>
+<text x="1082.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#222" text-anchor="middle">Pausas</text>
+<rect x="1151.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="1167.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Relatório</text>
+<text x="860" y="1816" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">6  Pausas</text>
+<text x="860" y="1836" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Histórico pessoal. Lembrete ignorado não vira registro.</text>
+</g>
+<g>
+<rect x="450" y="1088" width="360" height="700" rx="26" fill="#fff" stroke="#222" stroke-width="2.4"/>
+<rect x="602" y="1098" width="56" height="6" rx="3" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<text x="468" y="1126" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#333" text-anchor="start">09:41</text>
+<rect x="746" y="1116" width="16" height="10" rx="1" fill="none" stroke="#222" stroke-width="1.2"/>
+<rect x="770" y="1118" width="10" height="8" rx="1" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="464" y1="1138" x2="796" y2="1138" stroke="#ddd" stroke-width="1"/>
+<text x="468" y="1168" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="start">Esta semana</text>
+<text x="468" y="1192" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1a1a1a" text-anchor="start">Meta  12 de 20 pausas</text>
+<rect x="468" y="1202" width="324" height="10" rx="4" fill="#eee" stroke="#222" stroke-width="1"/>
+<rect x="468" y="1202" width="194.4" height="10" rx="4" fill="#ccc" stroke="none" stroke-width="1.5"/>
+<rect x="476" y="1304" width="28" height="96" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="490" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">S</text>
+<rect x="522" y="1334" width="28" height="66" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="536" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">T</text>
+<rect x="568" y="1292" width="28" height="108" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="582" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Q</text>
+<rect x="614" y="1352" width="28" height="48" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="628" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">Q</text>
+<rect x="660" y="1316" width="28" height="84" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="674" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">S</text>
+<rect x="706" y="1382" width="28" height="18" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="720" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">S</text>
+<rect x="752" y="1400" width="28" height="2" rx="0" fill="#ddd" stroke="#222" stroke-width="1.2"/>
+<text x="766" y="1418" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#1a1a1a" text-anchor="middle">D</text>
+<text x="468" y="1440" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Pausas concluídas     12</text>
+<text x="468" y="1464" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#1a1a1a" text-anchor="start">Tempo total            31 min</text>
+<rect x="468" y="1498" width="324" height="44" rx="6" fill="#fff" stroke="#222" stroke-width="1.4"/>
+<text x="630" y="1525" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">Exportar PDF</text>
+<rect x="460" y="1720" width="340" height="58" rx="0" fill="#fafafa" stroke="#222" stroke-width="1.2"/>
+<line x1="460" y1="1720" x2="800" y2="1720" stroke="#222" stroke-width="1.2"/>
+<rect x="486.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="502.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Timer</text>
+<rect x="571.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="587.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Alongar</text>
+<rect x="656.5" y="1728" width="32" height="18" rx="3" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="672.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" fill="#222" text-anchor="middle">Pausas</text>
+<rect x="741.5" y="1728" width="32" height="18" rx="3" fill="#d9d9d9" stroke="#333" stroke-width="1.8"/>
+<text x="757.5" y="1764" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#222" text-anchor="middle">Relatório</text>
+<text x="450" y="1816" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#1a1a1a" text-anchor="start">7  Relatório</text>
+<text x="450" y="1836" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" fill="#444" text-anchor="start">Leitura da semana. O PDF sai por iniciativa de quem usa.</text>
+</g>
+<rect x="40" y="1088" width="360" height="700" rx="8" fill="#fffdf8" stroke="#222" stroke-width="2"/>
+<text x="60" y="1128" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a" text-anchor="start">Anotações</text>
+<text x="60" y="1166" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">1.</text>
+<text x="82" y="1166" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">A barra inferior liga as quatro áreas:</text>
+<text x="82" y="1184" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Timer, Alongar, Pausas e Relatório.</text>
+<text x="60" y="1230" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">2.</text>
+<text x="82" y="1230" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">O ciclo é configurar, esperar, ser</text>
+<text x="82" y="1248" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">lembrado, alongar e concluir.</text>
+<text x="60" y="1294" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">3.</text>
+<text x="82" y="1294" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Iniciar, alongar e concluir cabem em</text>
+<text x="82" y="1312" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">poucos toques.</text>
+<text x="60" y="1358" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">4.</text>
+<text x="82" y="1358" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">O lembrete é um cartão. Dá para adiar</text>
+<text x="82" y="1376" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">ou dispensar.</text>
+<text x="60" y="1422" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">5.</text>
+<text x="82" y="1422" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Ignorar o lembrete não gera cobrança</text>
+<text x="82" y="1440" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">nem registro.</text>
+<text x="60" y="1486" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">6.</text>
+<text x="82" y="1486" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Concluir a pausa só confirma e grava.</text>
+<text x="82" y="1504" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Sem comemoração.</text>
+<text x="60" y="1550" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">7.</text>
+<text x="82" y="1550" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">O estado do timer aparece escrito, não</text>
+<text x="82" y="1568" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">só pela cor.</text>
+<text x="60" y="1614" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">8.</text>
+<text x="82" y="1614" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">A ilustração do exercício fica para o</text>
+<text x="82" y="1632" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">protótipo seguinte.</text>
+<text x="60" y="1678" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="start">9.</text>
+<text x="82" y="1678" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">Fora desta versão: produtividade,</text>
+<text x="82" y="1696" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#222" text-anchor="start">ranking e painel de RH.</text>
+<text x="40" y="2004" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" fill="#555" text-anchor="start">PausaAtiva  ·  Programação para Dispositivos Móveis  ·  baixa fidelidade (estrutura e navegação)</text>
+</svg>
