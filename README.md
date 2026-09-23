@@ -94,6 +94,7 @@ Entrega: [`docs/prototipo-baixa-fidelidade.pdf`](docs/prototipo-baixa-fidelidade
 | Integrante | Responsabilidade nesta atividade |
 |------------|----------------------------------|
 | Caio Machado | Protótipo de baixa fidelidade das telas e do fluxo principal |
+| João Vitor | Protótipo de baixa fidelidade das telas e do fluxo principal |
 
 O protótipo representa a estrutura e a navegação, sem a identidade visual final. Cobre as quatro áreas do MVP (Timer, Alongar, Pausas e Relatório) e o ciclo de login, configuração da jornada, timer, lembrete discreto, alongamento e registro da pausa. A versão editável está no [Figma](https://www.figma.com/design/MJnlkIWOGdclrMMe4bS1tb).
 
