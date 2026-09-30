@@ -7,9 +7,11 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 ### Adicionado
 - `docs/prototipo-baixa-fidelidade.pdf`: protótipo de baixa fidelidade do PausaAtiva, em escala de cinza, com login, configuração da jornada, timer e lembrete discreto. A versão editável está no [Figma](https://www.figma.com/design/MJnlkIWOGdclrMMe4bS1tb) — *Caio Machado*
 - `docs/prototipo-baixa-fidelidade.pdf`: protótipo de baixa fidelidade do PausaAtiva, em escala de cinza, com alongamentos, histórico de pausas e relatório — *João Vitor*
+- `docs/prototipoAltaFidelidade.pdf`: contendo o protótipo de alta fidelidade do aplicativo PausaAtiva. A versão editável está no [Figma]([https://www.figma.com/design/MJnlkIWOGdclrMMe4bS1tb](https://www.figma.com/design/HNelFDm3qMNY9oqZkBX4gE/PausaAtiva---MVP?m=auto&t=MefqKc5xkhktOjn1-1) — *Yago, Antonio, João Pedro*
+- `docs/apresentacaoFinalUnidade1.pdf`: Adicionado o arquivo contendo a apresentação final da Unidade 1.
 
 ### Alterado
-- `README.md`: inclusão da Atividade 04, do link do protótipo em PDF e da responsabilidade de Caio Machado e João Vitor.
+- `README.md`: inclusão da Atividade 04, do link do protótipo em PDF e da responsabilidade de Caio Machado, João Vitor, Antonio, Yago, João Pedro.
 - `README.md`: atualização da estrutura do repositório para incluir o protótipo e listar os arquivos que estão em `docs/`.
 - Entrega do protótipo ajustada para PDF, formato pedido na atividade, no lugar de PNG e SVG.
 
