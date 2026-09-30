@@ -98,6 +98,19 @@ Entrega: [`docs/prototipo-baixa-fidelidade.pdf`](docs/prototipo-baixa-fidelidade
 
 O protótipo representa a estrutura e a navegação, sem a identidade visual final. Cobre as quatro áreas do MVP (Timer, Alongar, Pausas e Relatório) e o ciclo de login, configuração da jornada, timer, lembrete discreto, alongamento e registro da pausa. A versão editável está no [Figma](https://www.figma.com/design/MJnlkIWOGdclrMMe4bS1tb).
 
+Entrega: [`docs/prototipoAltaFidelidade.pdf`](docs/prototipoAltaFidelidade.pdf)
+
+
+| Integrante | Responsabilidade nesta atividade |
+| --- | --- |
+| Antonio Henrique | Desenvolvimento do protótipo de alta fidelidade |
+| João Pedro Oliveira | Desenvolvimento do protótipo de alta fidelidade |
+| Yago Santana | Desenvolvimento do protótipo de alta fidelidade |
+
+O protótipo de alta fidelidade foi desenvolvido com base nos requisitos e nas funcionalidades definidos nas atividades anteriores, buscando representar de forma mais próxima da experiência final do aplicativo PausaAtiva.
+
+A atividade teve como objetivo apresentar a interface visual do sistema, organizar seus elementos e demonstrar os principais fluxos de interação, considerando as necessidades dos usuários e a proposta de incentivar a realização de pausas ativas durante o expediente. [Figma](https://www.figma.com/design/HNelFDm3qMNY9oqZkBX4gE/PausaAtiva---MVP?m=auto&t=hZ9HiGgiPeYtZQnh-1).
+
 ---
 
 ## Estrutura do repositório
@@ -107,12 +120,14 @@ README.md
 CHANGELOG.md
 docs/
 ├── apresentacao.pdf
+├── apresentacaoFinalUnidade1.pdf
 ├── apresentacaoRequisitos.pdf
 ├── benchmark.md
 ├── estudo-de-caso.md
 ├── personas.md
 ├── pesquisa.md
 ├── prototipo-baixa-fidelidade.pdf
+├── prototipoAltaFidelidade.pdf
 └── requisitos.md
 ```
 
