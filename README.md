@@ -154,7 +154,8 @@ PausaAtiva/
     ├── pesquisa.md
     ├── prototipo-baixa-fidelidade.pdf
     ├── prototipoAltaFidelidade.pdf
-    └── requisitos.md
+    ├── requisitos.md
+    └── uso-de-ia.md
 ```
 
 ---
