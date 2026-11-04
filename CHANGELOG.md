@@ -2,6 +2,15 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.7.0] — 04/11/2026
+
+### Adicionado
+- `docs/uso-de-ia.md`: criação de documento para registrar a utilização de Inteligência Artificial na elaboração dos diagramas e modelos do PausaAtiva, incluindo os prompts utilizados, os erros identificados e as soluções adotadas pelo grupo. — *João Vitor*
+
+### Alterado
+- `README.md`: inclusão de uma seção dedicada à documentação sobre o uso de Inteligência Artificial, com link para o arquivo `docs/uso-de-ia.md`.
+- `README.md`: atualização da estrutura do repositório para incluir o novo documento.
+
 ## [0.6.0] — 04/11/2026
 
 ### Adicionado
@@ -11,8 +20,8 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `docs/ModeloBancoDeDadosFirestoreEDart.png`: inclusão do modelo relacionando a estrutura do Firestore às classes Dart. — *João Vitor*
 
 ### Alterado
-- `README.md`: atualização da documentação para incluir os novos diagramas e seus respectivos links. — *João Vitor*
-- `README.md`: atualização da estrutura do repositório para refletir os novos arquivos presentes na pasta `docs/`. — *João Vitor*
+- `README.md`: atualização da documentação para incluir os novos diagramas e seus respectivos links.
+- `README.md`: atualização da estrutura do repositório para refletir os novos arquivos presentes na pasta `docs/`.
 
 ## [0.5.0] — 23/09/2026
 
