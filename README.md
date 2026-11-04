@@ -112,23 +112,43 @@ O protótipo de alta fidelidade foi desenvolvido com base nos requisitos e nas f
 A atividade teve como objetivo apresentar a interface visual do sistema, organizar seus elementos e demonstrar os principais fluxos de interação, considerando as necessidades dos usuários e a proposta de incentivar a realização de pausas ativas durante o expediente. [Figma](https://www.figma.com/design/HNelFDm3qMNY9oqZkBX4gE/PausaAtiva---MVP?m=auto&t=hZ9HiGgiPeYtZQnh-1).
 
 ---
+## Atividade 05 - Diagramas e modelagens
 
+### Responsabilidade registrada
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| João Vitor | Criação do diagrama de classe e de uso, e modelagens de banco |
+
+Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva, incluindo seus casos de uso, classes e organização dos dados no Firebase.
+
+- [Diagrama de Caso de Uso (PDF)](docs/DiagramaCasoDeUso.pdf)
+- [Diagrama de Classes (PDF)](docs/DiagramaDeClasse.pdf)
+- [Modelo do Banco de Dados Firebase (PNG)](docs/ModeloBancoDeDadosFirebase.png)
+- [Modelo do Banco de Dados — Firestore e Dart (PNG)](docs/ModeloBancoDeDadosFirestoreEDart.png)
+- 
+---
 ## Estrutura do repositório
 
 ```
-README.md
-CHANGELOG.md
-docs/
-├── apresentacao.pdf
-├── apresentacaoFinalUnidade1.pdf
-├── apresentacaoRequisitos.pdf
-├── benchmark.md
-├── estudo-de-caso.md
-├── personas.md
-├── pesquisa.md
-├── prototipo-baixa-fidelidade.pdf
-├── prototipoAltaFidelidade.pdf
-└── requisitos.md
+PausaAtiva/
+├── README.md
+├── CHANGELOG.md
+└── docs/
+    ├── DiagramaCasoDeUso.pdf
+    ├── DiagramaDeClasse.pdf
+    ├── ModeloBancoDeDadosFirebase.png
+    ├── ModeloBancoDeDadosFirestoreEDart.png
+    ├── apresentacao.pdf
+    ├── apresentacaoFinalUnidade1.pdf
+    ├── apresentacaoRequisitos.pdf
+    ├── benchmark.md
+    ├── estudo-de-caso.md
+    ├── personas.md
+    ├── pesquisa.md
+    ├── prototipo-baixa-fidelidade.pdf
+    ├── prototipoAltaFidelidade.pdf
+    └── requisitos.md
 ```
 
 ---
