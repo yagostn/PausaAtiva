@@ -126,7 +126,7 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 - [Diagrama de Classes (PDF)](docs/DiagramaDeClasse.pdf)
 - [Modelo do Banco de Dados Firebase (PNG)](docs/ModeloBancoDeDadosFirebase.png)
 - [Modelo do Banco de Dados — Firestore e Dart (PNG)](docs/ModeloBancoDeDadosFirestoreEDart.png)
-- 
+
 ---
 ## Estrutura do repositório
 
