@@ -2,6 +2,18 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.6.0] — 04/11/2026
+
+### Adicionado
+- `docs/DiagramaCasoDeUso.pdf`: inclusão do diagrama de caso de uso do PausaAtiva. — *João Vitor*
+- `docs/DiagramaDeClasse.pdf`: inclusão do diagrama de classes do projeto. — *João Vitor*
+- `docs/ModeloBancoDeDadosFirebase.png`: inclusão da representação visual do modelo do banco de dados Firebase. — *João Vitor*
+- `docs/ModeloBancoDeDadosFirestoreEDart.png`: inclusão do modelo relacionando a estrutura do Firestore às classes Dart. — *João Vitor*
+
+### Alterado
+- `README.md`: atualização da documentação para incluir os novos diagramas e seus respectivos links. — *João Vitor*
+- `README.md`: atualização da estrutura do repositório para refletir os novos arquivos presentes na pasta `docs/`. — *João Vitor*
+
 ## [0.5.0] — 23/09/2026
 
 ### Adicionado
