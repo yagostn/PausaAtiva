@@ -2,6 +2,15 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.8.0] – 11/11/2026
+
+### Adicionado
+- `docs/requisitos.md`: especificação dos requisitos funcionais RF13 a RF20, contemplando registro de pausas, histórico, relatório semanal sem frases de culpa, exportação em PDF local, operação offline-first, sincronização em nuvem, ações rápidas e persistência do cronômetro. – *Antonio Henrique*
+
+### Alterado
+- `README.md`: atualização do resumo da Atividade 03 registrando a cobertura completa de RF01 a RF20. – *Antonio Henrique*
+
+
 ## [0.7.0] — 04/11/2026
 
 ### Adicionado
