@@ -156,6 +156,9 @@ Documento que registra a utilização de ferramentas de IA como apoio na elabora
 PausaAtiva/
 ├── README.md
 ├── CHANGELOG.md
+├── AGENTS.md             # regras de contribuição
+├── .githooks/            # hook commit-msg
+├── .github/workflows/    # verificação de atribuição nos PRs
 ├── pubspec.yaml
 ├── analysis_options.yaml
 ├── android/              # minSdk 24 (Android 7.0)
@@ -198,6 +201,16 @@ PausaAtiva/
 ## Unidade II — Decisão de escopo e modelo de dados
 
 A [proposta de decisão de escopo e modelo único do trabalhador](docs/decisao-escopo-unidade-ii.md) descreve o **Caminho A (trabalhador individual)**, a estrutura prevista para Firestore e a persistência offline-first. **Aprovação do grupo ainda pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**; não configurar coleções/regras no Firebase até a decisão ser confirmada. Registro da proposta: **Yago Santana** (`@yagostn`), em 11/11/2026, para a [#20](https://github.com/yagostn/PausaAtiva/issues/20).
+
+---
+
+## Regras de contribuição
+
+Commits e PRs saem em nome de quem fez o trabalho, sem citar a ferramenta de IA ou o agente usado. O uso de IA é registrado só em [`docs/uso-de-ia.md`](docs/uso-de-ia.md). As regras completas estão no [`AGENTS.md`](AGENTS.md). Depois de clonar, ative o hook que confere a mensagem do commit:
+
+```sh
+git config core.hooksPath .githooks
+```
 
 ---
 

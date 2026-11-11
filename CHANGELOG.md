@@ -11,6 +11,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `lib/shell/`: abertura com o nome PausaAtiva e a frase "Pausas da sua jornada" (900 ms) e as quatro abas Timer, Alongar, Lembretes e Relatório, com barra inferior abaixo de 600 de largura e lateral a partir dela. — *Caio Machado, issues #25 e #26*.
 - `lib/features/timer/domain/timer_status.dart`: textos "Pronto para iniciar", "Em andamento" e "Pausado", para o estado do timer não depender só de cor. Só o primeiro aparece por enquanto. — *Caio Machado, issue #25*.
 - `lib/core/theme/app_theme.dart`: tema sóbrio em azul e verde, com a paleta da documentação técnica (`#176B73`, `#0F4C5C`, `#42A579`, fundo `#F5F7F8`, texto `#17252A`) e alvos de toque ampliados. — *Caio Machado, issue #25*.
+- `AGENTS.md`, `.githooks/commit-msg` e `.github/workflows/sem-atribuicao-ia.yml`: regra de que commits e PRs não citam a ferramenta de IA ou o agente usado, com hook local e verificação no PR. O uso de IA fica registrado só em `docs/uso-de-ia.md`. — *Caio Machado*.
 - `test/widget_test.dart`: teste que confere a abertura, os rótulos de leitor de tela das quatro abas e o texto "Pronto para iniciar". — *Caio Machado, issue #26*.
 
 ### Alterado
