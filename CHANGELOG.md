@@ -5,7 +5,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 ## [Não lançado] — 11/11/2026
 
 ### Adicionado
-- `docs/decisao-escopo-unidade-ii.md`: proposta do **Caminho A** para a Unidade II, com escopo do trabalhador, modelo único de dados (conta, configurações e pausas) e persistência offline-first. A deliberação do grupo na #1 segue pendente. — *Yago Santana (@yagostn), issue #20*.
+- `docs/decisao-escopo-unidade-ii.md`: proposta do **Caminho A** para a Unidade II, com escopo do trabalhador, modelo único de dados (conta, configurações e pausas) e persistência offline-first. A deliberação final depende de consenso do grupo e registro em ATA.
 - `pubspec.yaml`, `analysis_options.yaml`, `android/`, `ios/`, `linux/`, `macos/`, `web/`, `windows/`: projeto Flutter no repositório, com `flutter_riverpod` e `ProviderScope` na raiz. Firebase, Hive, GoRouter e notificação ficam para as issues seguintes. — *Caio Machado, issue #24*.
 - `lib/features/{timer,alongar,lembretes,relatorio}/`: pastas por funcionalidade, cada uma com `presentation/`, `domain/` e `data/`, com os nomes das quatro áreas do protótipo. — *Caio Machado, issue #24*.
 - `lib/shell/`: abertura com o nome PausaAtiva e a frase "Pausas da sua jornada" (900 ms) e as quatro abas Timer, Alongar, Lembretes e Relatório, com barra inferior abaixo de 600 de largura e lateral a partir dela. — *Caio Machado, issues #25 e #26*.
@@ -15,7 +15,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `test/widget_test.dart`: teste que confere a abertura, os rótulos de leitor de tela das quatro abas e o texto "Pronto para iniciar". — *Caio Machado, issue #26*.
 
 ### Alterado
-- `README.md`: inclusão do link da proposta, de seu status pendente e do novo arquivo na árvore de documentação. — *Yago Santana (@yagostn)*.
+- `README.md`: inclusão do link da proposta, de seu status pendente e do novo arquivo na árvore de documentação. – *Yago Santana (@yagostn)*.
 - `android/app/build.gradle.kts`: `minSdk` fixado em 24 (Android 7.0). — *Caio Machado, issue #24*.
 - `README.md`: inclusão da Atividade 06, da responsabilidade de Caio Machado, das instruções para rodar o app e de `lib/`, `test/`, `pubspec.yaml` e `android/` na estrutura do repositório. — *Caio Machado, issue #26*.
 - `docs/uso-de-ia.md`: seção 3.6 com os prompts da #4 em etapas (entender, implementar e revisar), o que foi aprendido em cada uma e os erros corrigidos no código gerado. — *Caio Machado, issue #4*.
@@ -26,9 +26,11 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 ## [0.8.0] — 11/11/2026
 
 ### Adicionado
-- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e a correção feita. — *Caio Machado*
+- `docs/requisitos.md`: especificação dos requisitos funcionais RF13 a RF20, contemplando registro de pausas, histórico, relatório semanal sem frases de culpa, exportação em PDF local, operação offline-first, sincronização em nuvem, ações rápidas e persistência do cronômetro. – *Antonio Henrique*
+- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e os aprendizados. – *Yago Santana (@yagostn)*
 
 ### Alterado
+- `README.md`: atualização do resumo da Atividade 03 registrando a cobertura completa de RF01 a RF20. – *Antonio Henrique*
 - `README.md`: a seção de uso de Inteligência Artificial passa a citar também a organização das sprints e das issues.
 
 ## [0.7.0] — 04/11/2026
