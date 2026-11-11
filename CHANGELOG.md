@@ -2,14 +2,23 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
-## [0.8.0] – 11/11/2026
+## [Não lançado] — 11/11/2026
+
+### Adicionado
+- `docs/decisao-escopo-unidade-ii.md`: proposta do **Caminho A** para a Unidade II, com escopo do trabalhador, modelo único de dados (conta, configurações e pausas) e persistência offline-first. A deliberação final depende de consenso do grupo e registro em ATA.
+
+### Alterado
+- `README.md`: inclusão do link da proposta, de seu status pendente e do novo arquivo na árvore de documentação. – *Yago Santana (@yagostn)*.
+
+## [0.8.0] — 11/11/2026
 
 ### Adicionado
 - `docs/requisitos.md`: especificação dos requisitos funcionais RF13 a RF20, contemplando registro de pausas, histórico, relatório semanal sem frases de culpa, exportação em PDF local, operação offline-first, sincronização em nuvem, ações rápidas e persistência do cronômetro. – *Antonio Henrique*
+- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e os aprendizados. – *Yago Santana (@yagostn)*
 
 ### Alterado
 - `README.md`: atualização do resumo da Atividade 03 registrando a cobertura completa de RF01 a RF20. – *Antonio Henrique*
-
+- `README.md`: a seção de uso de Inteligência Artificial passa a citar também a organização das sprints e das issues.
 
 ## [0.7.0] — 04/11/2026
 
