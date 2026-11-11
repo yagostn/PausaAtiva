@@ -141,6 +141,7 @@ Organização do quadro e primeiras entregas da Unidade II. O plano das sprints 
 | Antonio Henrique | Requisitos funcionais RF13 a RF20 em `docs/requisitos.md` ([#22](https://github.com/yagostn/PausaAtiva/issues/22), PR #59). Revisão e merge do PR #60 |
 | Caio Machado | Organização do quadro, das sprints e das issues ([#56](https://github.com/yagostn/PausaAtiva/issues/56), PR #57). Shell do aplicativo Flutter ([#4](https://github.com/yagostn/PausaAtiva/issues/4), PR #60). Revisão e merge dos PRs #58 e #59 |
 | João Pedro Oliveira | Responsável pelo fluxo de navegação real do aplicativo ([#14](https://github.com/yagostn/PausaAtiva/issues/14)), previsto para a sprint 7, depois que as telas abrirem no emulador. Revisão e merge do PR #57 |
+| João Vitor | Atualização e limpeza da estrutura de pastas do repositório (PR #65) e formalização da documentação sobre o uso de IA conforme a Portaria CNPq nº 2.664/2026 em `docs/uso-de-ia.md` |
 | Yago Santana | Proposta de escopo da Unidade II e modelo único do trabalhador em `docs/decisao-escopo-unidade-ii.md` ([#20](https://github.com/yagostn/PausaAtiva/issues/20), PR #58) |
 
 ### Requisitos RF13 a RF20
@@ -167,11 +168,17 @@ O app abre uma tela de abertura com o nome **PausaAtiva** e a frase "Pausas da s
 
 Para rodar: `flutter pub get` e `flutter run` com um emulador Android (7.0 ou superior).
 
+### Uso de Inteligência Artificial e adequação de pastas
+
+Entrega: [`docs/uso-de-ia.md`](docs/uso-de-ia.md)
+
+João Vitor realizou a adequação e limpeza da estrutura de pastas do repositório (PR #65) e formalizou a documentação sobre o uso de Inteligência Artificial em conformidade com a Portaria CNPq nº 2.664/2026, discriminando o uso de ferramentas generativas (ChatGPT para a modelagem dos diagramas e banco na Unidade I; Claude para organização das sprints e shell Flutter na Unidade II; e Codex, Gemini e Copilot em suporte técnico e revisão).
+
 ---
 
 ## Documentação sobre o uso de Inteligência Artificial
 
-Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva na organização das sprints e das issues da Unidade II e na implementação do shell do aplicativo Flutter (#4), incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
+Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva, na organização das sprints e das issues da Unidade II e na implementação do shell do aplicativo Flutter (#4), em conformidade com a Portaria CNPq nº 2.664/2026, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
 
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
