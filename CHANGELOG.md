@@ -2,6 +2,15 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.8.0] — 11/11/2026
+
+### Adicionado
+- `docs/fluxo-navegacao-real.md`: documentação do fluxo real de navegação do MVP no emulador, cobrindo preload, login/cadastro, configuração inicial, timer, notificação, alongar, adiar 10 minutos, dispensar ciclo, concluir pausa, histórico, relatório, exportação em PDF, perfil, sair e excluir conta. Também registra os itens desenhados no protótipo e mantidos fora do app por escopo (Postura 92%, streak, relatório anônimo de RH e login com Apple). — *GitHub Copilot (@copilot)*
+
+### Alterado
+- `README.md`: inclusão da Atividade 07 com link para `docs/fluxo-navegacao-real.md`.
+- `README.md`: atualização da estrutura do repositório para incluir o novo arquivo em `docs/`.
+
 ## [0.7.0] — 04/11/2026
 
 ### Adicionado

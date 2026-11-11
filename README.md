@@ -134,6 +134,14 @@ Documento que registra a utilização de ferramentas de IA como apoio na elabora
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
 ---
+## Atividade 07 — Fluxo de navegação real do aplicativo
+
+Entrega: [`docs/fluxo-navegacao-real.md`](docs/fluxo-navegacao-real.md)
+
+Este documento descreve o fluxo de telas que o app percorre de fato no MVP (preload, autenticação, configuração inicial, timer, lembrete, alongar, adiar, dispensar, concluir, histórico, relatório, PDF, perfil, sair e excluir conta), além dos itens que ficaram fora do escopo por decisão de produto.
+
+---
+
 ## Estrutura do repositório
 
 ```
@@ -150,6 +158,7 @@ PausaAtiva/
     ├── apresentacaoRequisitos.pdf
     ├── benchmark.md
     ├── estudo-de-caso.md
+    ├── fluxo-navegacao-real.md
     ├── personas.md
     ├── pesquisa.md
     ├── prototipo-baixa-fidelidade.pdf
