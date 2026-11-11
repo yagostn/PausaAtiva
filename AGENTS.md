@@ -8,7 +8,7 @@ O commit e o PR saem em nome de quem fez o trabalho. Nenhum commit, título de P
 
 - linhas `Co-Authored-By` de ferramenta ou bot;
 - rodapés como "Generated with..." ou "Gerado por...";
-- o nome da ferramenta de IA, do agente ou da empresa que o faz.
+- nomes de ferramentas como Claude, Copilot, ChatGPT, Codex, Gemini e Cursor, ou de empresas como Anthropic e OpenAI.
 
 O uso de IA é registrado num lugar só: [`docs/uso-de-ia.md`](docs/uso-de-ia.md), com os prompts, os erros e as correções.
 

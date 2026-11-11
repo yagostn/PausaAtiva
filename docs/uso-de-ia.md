@@ -73,7 +73,7 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 
 **Objetivo:** distribuir o trabalho da Unidade II em sprints até 16/12/2026, com cinco integrantes, e deixar cada issue explicando o que a pessoa precisa fazer.
 
-**Ferramenta:** assistente de código, com acesso de escrita ao repositório e, depois da liberação, ao project [PausaAtiva - Estrutura](https://github.com/users/yagostn/projects/2).
+**Ferramenta:** assistente de código no Cursor, com acesso de escrita ao repositório e, depois da liberação, ao project [PausaAtiva - Estrutura](https://github.com/users/yagostn/projects/2).
 
 **Prompts:**
 
