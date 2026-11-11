@@ -26,7 +26,7 @@ Aplicativo mobile que lembra trabalhadores em atividade sentada de fazer pausas 
 
 O PausaAtiva atende trabalhadores que passam longos períodos sentados e acabam esquecendo de se movimentar durante o expediente. O aplicativo envia lembretes discretos em intervalos configuráveis, conduz o usuário por uma sequência curta de alongamentos e registra as pausas realizadas para acompanhamento semanal.
 
-**Stack prevista:** Flutter, Dart, Riverpod e Firebase (Authentication e Cloud Firestore).
+**Stack prevista:** Flutter, Dart, Riverpod e Firebase (Authentication e Cloud Firestore). Hoje o repositório já tem o shell do app Flutter com Riverpod; o Firebase entra na issue #5.
 
 ---
 
@@ -127,9 +127,29 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 - [Modelo do Banco de Dados Firebase (PNG)](docs/ModeloBancoDeDadosFirebase.png)
 - [Modelo do Banco de Dados — Firestore e Dart (PNG)](docs/ModeloBancoDeDadosFirestoreEDart.png)
 
+---
+
+## Atividade 06 — Shell do aplicativo Flutter
+
+Issue: [#4](https://github.com/yagostn/PausaAtiva/issues/4) (tarefas #24, #25 e #26)
+
+### Responsabilidade registrada
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| Caio Machado | Projeto Flutter no repositório: pastas por funcionalidade, Riverpod, `minSdk` 24, quatro abas, tema, acessibilidade e abertura curta |
+
+O **shell** é a estrutura do app que envolve as telas: a abertura, a navegação entre as abas, o tema e as pastas onde o resto do código vai entrar. As telas ainda estão vazias; as próximas issues preenchem cada uma.
+
+O app abre uma tela de abertura com o nome **PausaAtiva** e a frase "Pausas da sua jornada" (menos de um segundo) e segue para quatro abas vazias: **Timer, Alongar, Lembretes e Relatório**. Em largura a partir de 600 a navegação vai para a lateral; abaixo disso, fica na barra inferior. A aba Timer já mostra o texto "Pronto para iniciar", e os textos "Em andamento" e "Pausado" ficam preparados para a #38, para que o estado não dependa só de cor. Firebase, notificação, persistência e as regras do timer ficam nas issues seguintes.
+
+Para rodar: `flutter pub get` e `flutter run` com um emulador Android (7.0 ou superior).
+
+---
+
 ## Documentação sobre o uso de Inteligência Artificial
 
-Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva e na organização das sprints e das issues da Unidade II, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
+Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva na organização das sprints e das issues da Unidade II e na implementação do shell do aplicativo Flutter (#4), incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
 
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
@@ -140,6 +160,27 @@ Documento que registra a utilização de ferramentas de IA como apoio na elabora
 PausaAtiva/
 ├── README.md
 ├── CHANGELOG.md
+├── AGENTS.md             # regras de contribuição
+├── .githooks/            # hook commit-msg
+├── .github/workflows/    # verificação de atribuição nos PRs
+├── pubspec.yaml
+├── analysis_options.yaml
+├── android/              # minSdk 24 (Android 7.0)
+├── ios/ linux/ macos/ web/ windows/   # gerados pelo flutter create
+├── lib/
+│   ├── main.dart
+│   ├── app.dart
+│   ├── core/
+│   │   ├── theme/
+│   │   └── widgets/
+│   ├── shell/            # abertura e navegação das quatro abas
+│   └── features/
+│       ├── timer/        # presentation/ domain/ data/
+│       ├── alongar/      # presentation/ domain/ data/
+│       ├── lembretes/    # presentation/ domain/ data/
+│       └── relatorio/    # presentation/ domain/ data/
+├── test/
+│   └── widget_test.dart
 └── docs/
     ├── DiagramaCasoDeUso.pdf
     ├── DiagramaDeClasse.pdf
@@ -164,6 +205,16 @@ PausaAtiva/
 ## Unidade II — Decisão de escopo e modelo de dados
 
 A [proposta de decisão de escopo e modelo único do trabalhador](docs/decisao-escopo-unidade-ii.md) descreve o **Caminho A (trabalhador individual)**, a estrutura prevista para Firestore e a persistência offline-first. **Aprovação do grupo ainda pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**; não configurar coleções/regras no Firebase até a decisão ser confirmada. Registro da proposta: **Yago Santana** (`@yagostn`), em 11/11/2026, para a [#20](https://github.com/yagostn/PausaAtiva/issues/20).
+
+---
+
+## Regras de contribuição
+
+Commits e PRs saem em nome de quem fez o trabalho, sem citar a ferramenta de IA ou o agente usado. O uso de IA é registrado só em [`docs/uso-de-ia.md`](docs/uso-de-ia.md). As regras completas estão no [`AGENTS.md`](AGENTS.md). Depois de clonar, ative o hook que confere a mensagem do commit:
+
+```sh
+git config core.hooksPath .githooks
+```
 
 ---
 

@@ -1,0 +1,14 @@
+#!/bin/sh
+# Barra mensagens de commit que citam ferramentas de IA ou agentes.
+# A regra está no AGENTS.md. Ativar uma vez por clone:
+#   git config core.hooksPath .githooks
+
+padrao="$(git rev-parse --show-toplevel)/.githooks/padrao-atribuicao.txt"
+mensagem=$(grep -v '^#' "$1")
+
+if printf '%s\n' "$mensagem" | grep -qiEf "$padrao"; then
+  echo "Commit barrado: a mensagem cita uma ferramenta de IA ou agente." >&2
+  printf '%s\n' "$mensagem" | grep -niEf "$padrao" >&2
+  echo "Tire essa linha. A regra está no AGENTS.md." >&2
+  exit 1
+fi
