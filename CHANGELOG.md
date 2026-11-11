@@ -21,6 +21,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `README.md`: a Atividade 06 passa a reunir a sprint 1 da Unidade II, com a responsabilidade de Antonio Henrique (#22), Caio Machado (#4 e #56), João Pedro Oliveira (#14) e Yago Santana (#20). A proposta de escopo do Yago sai da seção solta no fim do arquivo e entra nessa atividade. Na Atividade 03, o Antonio aparece como autor dos RF13 a RF20. — *Caio Machado*.
 - `CHANGELOG.md`: a entrada da 0.8.0 sobre `docs/uso-de-ia.md` volta a citar Caio Machado como autor (commit dc09aba, PR #57). A autoria tinha mudado na resolução de um conflito. — *Caio Machado*.
 - `docs/uso-de-ia.md`: seção 3.6 com os prompts da #4 em etapas (entender, implementar e revisar), o que foi aprendido em cada uma e os erros corrigidos no código gerado. — *Caio Machado, issue #4*.
+- `docs/uso-de-ia.md`: declaração de uso de IA conforme a Portaria CNPq nº 2.664/2026, especificando o uso de ChatGPT (diagramas e modelos 3.1 a 3.4), Claude (sprints e shell Flutter 3.5 e 3.6), Codex, Gemini e Copilot. — *João Vitor*.
 - `README.md`: atualização da árvore da estrutura do repositório com a remoção das pastas de regras de automação. — *João Vitor*.
 
 ### Removido
