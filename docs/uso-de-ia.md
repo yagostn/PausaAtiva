@@ -1,19 +1,44 @@
 # Uso de Inteligência Artificial — PausaAtiva
 
+Conforme a Portaria CNPq nº 2.664/2026:
+
+Declara-se a utilização de ferramentas de Inteligência Artificial (IA) generativa neste trabalho como recurso de apoio. As informações sobre o uso estão estruturadas conforme as diretrizes:
+
+- **(i) Nome das ferramentas utilizadas:**
+  - ChatGPT
+  - Claude
+  - Codex
+  - Gemini
+  - Copilot
+
+- **(ii) Etapa do trabalho em que foi empregada:**
+  - **ChatGPT:** empregado na Unidade I (seções 3.1 a 3.4), na etapa de levantamento visual e modelagem inicial do sistema.
+  - **Claude:** empregado na Unidade II (seções 3.5 e 3.6), nas etapas de organização das sprints e issues do projeto, bem como na configuração e implementação inicial da casca (*shell*) em Flutter/Dart.
+  - **Codex, Gemini e Copilot:** empregados nas etapas de suporte técnico, consultas auxiliares de sintaxe e revisão de documentação.
+
+- **(iii) Finalidade específica de uso em cada etapa:**
+  - **ChatGPT (3.1 a 3.4):** geração inicial dos diagramas conceituais UML (Caso de Uso e Classes) e das propostas de modelagem de dados no Firebase Firestore e seu mapeamento para Dart.
+  - **Claude (3.5 a 3.6):** organização e estruturação do quadro de tarefas/sprints no GitHub Projects e geração da estrutura base de pastas por funcionalidade, tema, abas e tela de abertura do aplicativo Flutter.
+  - **Codex, Gemini e Copilot:** validações pontuais, conferências técnicas e apoio geral à elaboração de documentação.
+
+A IA foi utilizada estritamente como ferramenta de apoio, não substituindo a análise crítica, a validação técnica e as decisões dos integrantes do grupo.
+
 ## 1. Objetivo
 
 Este documento apresenta como ferramentas de Inteligência Artificial foram utilizadas como apoio na elaboração dos diagramas e modelos do projeto PausaAtiva e, na Unidade II, na organização do quadro, das sprints e do texto das issues, e na implementação do shell do aplicativo Flutter. Também registra os prompts utilizados, os erros identificados nas respostas geradas e as soluções adotadas pelo grupo para corrigir as inconsistências.
 
-A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a validação e as decisões técnicas dos integrantes do grupo.
-
 ## 2. Ferramentas utilizadas
 
-- **Inteligência Artificial generativa:** apoio na elaboração, organização e revisão dos diagramas e modelos, na organização das issues e das sprints da Unidade II e na geração e revisão do código do shell do aplicativo Flutter.
+- **ChatGPT:** geração inicial dos diagramas de caso de uso e classes UML, além dos modelos de banco de dados Firebase/Firestore (seções 3.1 a 3.4).
+- **Claude:** organização de sprints, elaboração de issues e configuração/implementação do shell do app Flutter/Dart (seções 3.5 e 3.6).
+- **Codex, Gemini e Copilot:** consultas de suporte, sintaxe e checagem de código e documentação.
 - **Validação pelo grupo:** análise das informações geradas, comparação com os requisitos do projeto e realização dos ajustes necessários. No código, a conferência foi feita com `flutter analyze`, `flutter test` e execução no emulador.
 
 ## 3. Prompts utilizados
 
 ### 3.1. Diagrama de Caso de Uso
+
+**Ferramenta:** ChatGPT.
 
 **Objetivo:** representar os atores e as principais funcionalidades do PausaAtiva, demonstrando suas interações com o sistema.
 
@@ -26,6 +51,8 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 > Organize o diagrama seguindo as convenções UML, utilizando corretamente atores, casos de uso, relacionamentos e limites do sistema. Evite funcionalidades duplicadas e mantenha uma representação clara e coerente com os requisitos do projeto.
 
 ### 3.2. Diagrama de Classes
+
+**Ferramenta:** ChatGPT.
 
 **Objetivo:** representar a estrutura do sistema por meio de classes, atributos, métodos e relacionamentos.
 
@@ -41,6 +68,8 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 
 ### 3.3. Modelo do Banco de Dados Firebase
 
+**Ferramenta:** ChatGPT.
+
 **Objetivo:** representar a organização dos dados que serão armazenados no Firebase, considerando a estrutura planejada para o aplicativo.
 
 **Prompt:**
@@ -54,6 +83,8 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 > Considere boas práticas do Firestore, evitando estruturas desnecessariamente complexas, duplicação excessiva de dados e dificuldades de consulta. O modelo deve ser coerente com as funcionalidades e regras de negócio do PausaAtiva.
 
 ### 3.4. Modelo do Banco de Dados — Firestore e Dart
+
+**Ferramenta:** ChatGPT.
 
 **Objetivo:** relacionar a estrutura de armazenamento do Firestore com as classes utilizadas no desenvolvimento em Dart.
 
@@ -73,7 +104,7 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 
 **Objetivo:** distribuir o trabalho da Unidade II em sprints até 16/12/2026, com cinco integrantes, e deixar cada issue explicando o que a pessoa precisa fazer.
 
-**Ferramenta:** assistente de código no Cursor, com acesso de escrita ao repositório e, depois da liberação, ao project [PausaAtiva - Estrutura](https://github.com/users/yagostn/projects/2).
+**Ferramenta:** Claude (utilizado como assistente de código no Cursor, com acesso de escrita ao repositório e, depois da liberação, ao project [PausaAtiva - Estrutura](https://github.com/users/yagostn/projects/2)).
 
 **Prompts:**
 
@@ -97,7 +128,7 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 
 **Objetivo:** colocar no repositório um app Flutter que compila e abre no emulador Android, com a abertura curta e as quatro abas do protótipo, sem adiantar Firebase, timer ou notificação.
 
-**Ferramenta:** assistente de código com acesso ao repositório local.
+**Ferramenta:** Claude (utilizado como assistente de código com acesso ao repositório local).
 
 **Como os prompts foram montados:** cada pedido seguiu a mesma estrutura: **contexto** (o que já existe), **tarefa** (o que fazer agora), **restrições** (o que não fazer) e **pronto quando** (como conferir). Os pedidos foram feitos em etapas, na ordem das tarefas da issue. Primeiro Caio pediu explicações para entender o que ia construir. Depois pediu o código, uma parte por vez. No fim pediu a revisão do que foi gerado. Cada etapa só começou depois de a anterior rodar.
 
