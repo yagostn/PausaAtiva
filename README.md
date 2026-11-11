@@ -129,7 +129,7 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 
 ## Documentação sobre o uso de Inteligência Artificial
 
-Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
+Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva e na organização das sprints e das issues da Unidade II, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
 
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
