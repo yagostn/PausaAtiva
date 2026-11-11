@@ -2,13 +2,13 @@
 
 ## 1. Objetivo
 
-Este documento apresenta como ferramentas de Inteligência Artificial foram utilizadas como apoio na elaboração dos diagramas e modelos do projeto PausaAtiva e, na Unidade II, na organização do quadro, das sprints e do texto das issues, e na implementação da casca do aplicativo Flutter. Também registra os prompts utilizados, os erros identificados nas respostas geradas e as soluções adotadas pelo grupo para corrigir as inconsistências.
+Este documento apresenta como ferramentas de Inteligência Artificial foram utilizadas como apoio na elaboração dos diagramas e modelos do projeto PausaAtiva e, na Unidade II, na organização do quadro, das sprints e do texto das issues, e na implementação do shell do aplicativo Flutter. Também registra os prompts utilizados, os erros identificados nas respostas geradas e as soluções adotadas pelo grupo para corrigir as inconsistências.
 
 A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a validação e as decisões técnicas dos integrantes do grupo.
 
 ## 2. Ferramentas utilizadas
 
-- **Inteligência Artificial generativa:** apoio na elaboração, organização e revisão dos diagramas e modelos, na organização das issues e das sprints da Unidade II e na geração e revisão do código da casca do aplicativo Flutter.
+- **Inteligência Artificial generativa:** apoio na elaboração, organização e revisão dos diagramas e modelos, na organização das issues e das sprints da Unidade II e na geração e revisão do código do shell do aplicativo Flutter.
 - **Validação pelo grupo:** análise das informações geradas, comparação com os requisitos do projeto e realização dos ajustes necessários. No código, a conferência foi feita com `flutter analyze`, `flutter test` e execução no emulador.
 
 ## 3. Prompts utilizados
@@ -91,7 +91,7 @@ A IA foi utilizada como ferramenta de apoio, não substituindo a análise, a val
 
 **Como foi feito:** a IA leu a issue #16, os prazos de 02/12, 09/12 e 16/12 e os documentos do repositório. Em seguida leu os PDFs do enunciado e as duas documentações técnicas enviadas por Caio. O quadro ganhou o campo Sprint e uma aba por período. As tarefas de implementação foram escritas para dizer o que fazer, o que não fazer e quando a issue acaba. README e CHANGELOG deixaram de ser tarefa solta e passaram a entrar no commit de quem implementa.
 
-### 3.6. Casca do aplicativo Flutter (#4, tarefas #24, #25 e #26)
+### 3.6. Shell do aplicativo Flutter (#4, tarefas #24, #25 e #26)
 
 **Responsável:** Caio Machado.
 
@@ -174,7 +174,7 @@ Durante a utilização da Inteligência Artificial, foram identificadas inconsis
 | Modelo do Banco de Dados Firebase | Não foram identificados problemas relevantes na estrutura gerada. | O grupo realizou a conferência do modelo e verificou sua coerência com as necessidades e funcionalidades previstas para o aplicativo. |
 | Modelo do Banco de Dados — Firestore e Dart | Não foram identificados problemas relevantes na correspondência entre a estrutura do Firestore e as classes Dart. | O grupo revisou a representação e verificou a consistência entre os campos, tipos de dados e classes correspondentes. |
 | Quadro e sprints da Unidade II | A primeira organização misturou tarefas de README e CHANGELOG com o trabalho de implementação, e a issue pai do Flutter sumiu do filtro da sprint de hoje. Os PDFs técnicos também divergiam do repositório: um pedia Firebase Cloud Messaging para a pausa, outro sugeria adiar em 5 minutos e incluir o passo de levantar e caminhar. | Caio comparou o quadro com o plano do grupo. As tarefas que só pediam README ou CHANGELOG foram encerradas, porque esse registro entra no commit de quem implementa. A issue do Flutter voltou para a aba de 11/11. Nas issues de implementação, a regra escrita do repositório ficou explícita: notificação local, adiamento de 10 minutos e quatro alongamentos sentados. |
-| Casca do aplicativo Flutter (#4) | O código gerado pela IA não compilava: `imort` no lugar de `import` em `shell_screen.dart`, `const` sobre um valor de enum (`TimerStatus.pronto.rotulo`) em `timer_screen.dart`, e o teste do contador do template ainda apontava para `MyApp`. As telas também ficaram em `lib/screens/`, e não nas pastas por funcionalidade pedidas na #24, e o tema usava cores diferentes das da documentação técnica. | Caio rodou `flutter analyze` e `flutter test`, corrigiu a digitação e o `const`, reescreveu o teste para a abertura e as quatro abas, moveu as telas para `lib/features/<funcionalidade>/presentation/` e trocou as cores pela paleta da documentação. O `Semantics` extra em volta dos ícones das abas foi retirado, porque o rótulo da própria aba já é anunciado. |
+| Shell do aplicativo Flutter (#4) | O código gerado pela IA não compilava: `imort` no lugar de `import` em `shell_screen.dart`, `const` sobre um valor de enum (`TimerStatus.pronto.rotulo`) em `timer_screen.dart`, e o teste do contador do template ainda apontava para `MyApp`. As telas também ficaram em `lib/screens/`, e não nas pastas por funcionalidade pedidas na #24, e o tema usava cores diferentes das da documentação técnica. | Caio rodou `flutter analyze` e `flutter test`, corrigiu a digitação e o `const`, reescreveu o teste para a abertura e as quatro abas, moveu as telas para `lib/features/<funcionalidade>/presentation/` e trocou as cores pela paleta da documentação. O `Semantics` extra em volta dos ícones das abas foi retirado, porque o rótulo da própria aba já é anunciado. |
 
 ## 5. Processo de validação
 
