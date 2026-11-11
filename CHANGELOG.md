@@ -2,6 +2,14 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [Não lançado] — 11/11/2026
+
+### Adicionado
+- `docs/decisao-escopo-unidade-ii.md`: proposta do **Caminho A** para a Unidade II, com escopo do trabalhador, modelo único de dados (conta, configurações e pausas) e persistência offline-first. A deliberação do grupo na #1 segue pendente. — *Yago Santana (@yagostn), issue #20*.
+
+### Alterado
+- `README.md`: inclusão do link da proposta, de seu status pendente e do novo arquivo na árvore de documentação. — *Yago Santana (@yagostn)*.
+
 ## [0.8.0] — 11/11/2026
 
 ### Adicionado
