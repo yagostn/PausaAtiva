@@ -132,6 +132,30 @@ O sistema deve exibir um cronômetro para cada exercício e indicar o progresso 
 ### RF12 — Exibir dicas ergonômicas
 O sistema deve apresentar orientações curtas sobre postura, posição da tela e ergonomia durante o uso do aplicativo.
 
+### RF13 – Registrar conclusão de pausa
+O sistema deve registrar automaticamente no banco de dados local a conclusão de uma pausa ativa assim que for finalizada, salvando instante, duração e rótulo. Lembretes ignorados, adiados ou dispensados não geram registro.
+
+### RF14 – Consultar histórico de pausas
+O sistema deve permitir que o usuário consulte o histórico apenas das pausas concluídas, agrupadas por dia, sem opção de editar ou apagar registros individuais.
+
+### RF15 – Relatório semanal
+O sistema deve apresentar um relatório consolidado da semana com quantidade de pausas, tempo total, distribuição diária e meta definida pelo usuário, mantendo apresentação neutra sem mensagens punitivas.
+
+### RF16 – Exportar relatório em PDF
+O sistema deve permitir a exportação do relatório consolidado em PDF gerado localmente no aparelho por iniciativa do usuário, sem persistência do arquivo no Firestore.
+
+### RF17 – Operação offline
+O sistema deve assegurar o funcionamento offline para timer, configurações, lista de alongamentos, notificações locais e consulta ao histórico recente.
+
+### RF18 – Sincronização com a nuvem
+O sistema deve sincronizar automaticamente com a conta remota no Firestore as configurações e pausas registradas localmente assim que a conexão de rede for restabelecida.
+
+### RF19 – Adiar e dispensar lembrete
+O sistema deve disponibilizar ações rápidas na notificação: a opção de adiar deve postergar o ciclo em 10 minutos, e dispensar deve silenciar até o próximo horário da rotina, sem repetições insistentes nem registro de falha.
+
+### RF20 – Persistência do cronômetro
+O sistema deve manter a contagem do cronômetro ativa em segundo plano caso o aplicativo seja fechado ou a tela bloqueada, garantindo o disparo da notificação local no horário agendado.
+
 ## 2.3 Requisitos não funcionais
 
 ### RNF01 — Usabilidade
