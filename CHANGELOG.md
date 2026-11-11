@@ -2,6 +2,14 @@
 
 Registro das mudanças relevantes do projeto PausaAtiva.
 
+## [0.8.0] — 11/11/2026
+
+### Adicionado
+- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e a correção feita. — *Caio Machado*
+
+### Alterado
+- `README.md`: a seção de uso de Inteligência Artificial passa a citar também a organização das sprints e das issues.
+
 ## [0.7.0] — 04/11/2026
 
 ### Adicionado
