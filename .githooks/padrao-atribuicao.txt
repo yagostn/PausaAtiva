@@ -1,3 +1,0 @@
-co-authored-by:.*(noreply@anthropic|copilot|bot@|\[bot\])
-generated (with|by)
-\b(claude|anthropic|copilot|chatgpt|openai|codex|gemini|cursor)\b

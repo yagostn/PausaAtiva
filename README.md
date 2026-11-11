@@ -182,9 +182,6 @@ Documento que registra a utilização de ferramentas de IA como apoio na elabora
 PausaAtiva/
 ├── README.md
 ├── CHANGELOG.md
-├── AGENTS.md             # regras de contribuição
-├── .githooks/            # hook commit-msg
-├── .github/workflows/    # verificação de atribuição nos PRs
 ├── pubspec.yaml
 ├── analysis_options.yaml
 ├── android/              # minSdk 24 (Android 7.0)
@@ -220,16 +217,6 @@ PausaAtiva/
     ├── prototipoAltaFidelidade.pdf
     ├── requisitos.md
     └── uso-de-ia.md
-```
-
----
-
-## Regras de contribuição
-
-Commits e PRs saem em nome de quem fez o trabalho, sem citar a ferramenta de IA ou o agente usado. O uso de IA é registrado só em [`docs/uso-de-ia.md`](docs/uso-de-ia.md). As regras completas estão no [`AGENTS.md`](AGENTS.md). Depois de clonar, ative o hook que confere a mensagem do commit:
-
-```sh
-git config core.hooksPath .githooks
 ```
 
 ---
