@@ -21,9 +21,11 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `README.md`: a Atividade 06 passa a reunir a sprint 1 da Unidade II, com a responsabilidade de Antonio Henrique (#22), Caio Machado (#4 e #56), João Pedro Oliveira (#14) e Yago Santana (#20). A proposta de escopo do Yago sai da seção solta no fim do arquivo e entra nessa atividade. Na Atividade 03, o Antonio aparece como autor dos RF13 a RF20. — *Caio Machado*.
 - `CHANGELOG.md`: a entrada da 0.8.0 sobre `docs/uso-de-ia.md` volta a citar Caio Machado como autor (commit dc09aba, PR #57). A autoria tinha mudado na resolução de um conflito. — *Caio Machado*.
 - `docs/uso-de-ia.md`: seção 3.6 com os prompts da #4 em etapas (entender, implementar e revisar), o que foi aprendido em cada uma e os erros corrigidos no código gerado. — *Caio Machado, issue #4*.
+- `README.md`: atualização da árvore da estrutura do repositório com a remoção das pastas de regras de automação. — *João Vitor*.
 
 ### Removido
 - Contador do template do `flutter create`, que impedia o `lib/main.dart` de compilar. — *Caio Machado, issue #24*.
+- `AGENTS.md`, `.githooks/` e `.github/workflows/sem-atribuicao-ia.yml`: remoção dos arquivos de regras de contribuição e verificação de automação. — *João Vitor*.
 
 ## [0.8.0] — 11/11/2026
 
