@@ -162,7 +162,6 @@ PausaAtiva/
 ├── CHANGELOG.md
 ├── AGENTS.md             # regras de contribuição
 ├── .githooks/            # hook commit-msg
-├── .github/workflows/    # verificação de atribuição nos PRs
 ├── pubspec.yaml
 ├── analysis_options.yaml
 ├── android/              # minSdk 24 (Android 7.0)

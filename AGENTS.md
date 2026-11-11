@@ -8,20 +8,19 @@ O commit e o PR saem em nome de quem fez o trabalho. Nenhum commit, título de P
 
 - linhas `Co-Authored-By` de ferramenta ou bot;
 - rodapés como "Generated with..." ou "Gerado por...";
-- nomes de ferramentas como Claude, Copilot, ChatGPT, Codex, Gemini e Cursor, ou de empresas como Anthropic e OpenAI.
+- o nome da ferramenta de IA, do agente ou da empresa que o faz.
 
 O uso de IA é registrado num lugar só: [`docs/uso-de-ia.md`](docs/uso-de-ia.md), com os prompts, os erros e as correções.
 
 ### Como a regra é conferida
 
-- **No PR:** a verificação `.github/workflows/sem-atribuicao-ia.yml` reprova o PR se o título, a descrição ou algum commit citar uma ferramenta.
 - **Na sua máquina:** o hook `.githooks/commit-msg` barra o commit antes de ele existir. Ative uma vez por clone:
 
   ```sh
   git config core.hooksPath .githooks
   ```
 
-A lista de padrões fica em `.githooks/padrao-atribuicao.txt` e vale para as duas conferências.
+A lista de padrões fica em `.githooks/padrao-atribuicao.txt`. O título e a descrição do PR são conferidos por quem revisa.
 
 ## Documentação no mesmo commit
 
