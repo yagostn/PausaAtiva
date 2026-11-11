@@ -26,7 +26,7 @@ Aplicativo mobile que lembra trabalhadores em atividade sentada de fazer pausas 
 
 O PausaAtiva atende trabalhadores que passam longos períodos sentados e acabam esquecendo de se movimentar durante o expediente. O aplicativo envia lembretes discretos em intervalos configuráveis, conduz o usuário por uma sequência curta de alongamentos e registra as pausas realizadas para acompanhamento semanal.
 
-**Stack prevista:** Flutter, Dart, Riverpod e Firebase (Authentication e Cloud Firestore).
+**Stack prevista:** Flutter, Dart, Riverpod e Firebase (Authentication e Cloud Firestore). Hoje o repositório já tem a casca Flutter com Riverpod; o Firebase entra na issue #5.
 
 ---
 
@@ -127,9 +127,25 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 - [Modelo do Banco de Dados Firebase (PNG)](docs/ModeloBancoDeDadosFirebase.png)
 - [Modelo do Banco de Dados — Firestore e Dart (PNG)](docs/ModeloBancoDeDadosFirestoreEDart.png)
 
+## Atividade 06 — Casca do aplicativo Flutter
+
+Issue: [#4](https://github.com/yagostn/PausaAtiva/issues/4) (tarefas #24, #25 e #26)
+
+### Responsabilidade registrada
+
+| Integrante | Responsabilidade nesta atividade |
+|------------|----------------------------------|
+| Caio Machado | Projeto Flutter no repositório: pastas por funcionalidade, Riverpod, `minSdk` 24, quatro abas, tema, acessibilidade e abertura curta |
+
+O app abre uma tela de abertura com o nome **PausaAtiva** e a frase "Pausas da sua jornada" (menos de um segundo) e segue para quatro abas vazias: **Timer, Alongar, Lembretes e Relatório**. Em largura a partir de 600 a navegação vai para a lateral; abaixo disso, fica na barra inferior. A aba Timer já mostra o texto "Pronto para iniciar", e os textos "Em andamento" e "Pausado" ficam preparados para a #38, para que o estado não dependa só de cor. Firebase, notificação, persistência e as regras do timer ficam nas issues seguintes.
+
+Para rodar: `flutter pub get` e `flutter run` com um emulador Android (7.0 ou superior).
+
+---
+
 ## Documentação sobre o uso de Inteligência Artificial
 
-Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva e na organização das sprints e das issues da Unidade II, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
+Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva na organização das sprints e das issues da Unidade II e na implementação da casca do aplicativo Flutter (#4), incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
 
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
@@ -140,6 +156,24 @@ Documento que registra a utilização de ferramentas de IA como apoio na elabora
 PausaAtiva/
 ├── README.md
 ├── CHANGELOG.md
+├── pubspec.yaml
+├── analysis_options.yaml
+├── android/              # minSdk 24 (Android 7.0)
+├── ios/ linux/ macos/ web/ windows/   # gerados pelo flutter create
+├── lib/
+│   ├── main.dart
+│   ├── app.dart
+│   ├── core/
+│   │   ├── theme/
+│   │   └── widgets/
+│   ├── shell/            # abertura e navegação das quatro abas
+│   └── features/
+│       ├── timer/        # presentation/ domain/ data/
+│       ├── alongar/      # presentation/ domain/ data/
+│       ├── lembretes/    # presentation/ domain/ data/
+│       └── relatorio/    # presentation/ domain/ data/
+├── test/
+│   └── widget_test.dart
 └── docs/
     ├── DiagramaCasoDeUso.pdf
     ├── DiagramaDeClasse.pdf
