@@ -23,6 +23,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `docs/uso-de-ia.md`: seção 3.6 com os prompts da #4 em etapas (entender, implementar e revisar), o que foi aprendido em cada uma e os erros corrigidos no código gerado. — *Caio Machado, issue #4*.
 - `docs/uso-de-ia.md`: declaração de uso de IA conforme a Portaria CNPq nº 2.664/2026, especificando o uso de ChatGPT (diagramas e modelos 3.1 a 3.4), Claude (sprints e shell Flutter 3.5 e 3.6), Codex, Gemini e Copilot. — *João Vitor*.
 - `README.md`: atualização da árvore da estrutura do repositório com a remoção das pastas de regras de automação. — *João Vitor*.
+- `README.md`: inclusão das entregas e da responsabilidade de João Vitor na Atividade 06 (estrutura de pastas e declaração sobre o uso de IA conforme a Portaria CNPq nº 2.664/2026). — *João Vitor*.
 
 ### Removido
 - Contador do template do `flutter create`, que impedia o `lib/main.dart` de compilar. — *Caio Machado, issue #24*.
