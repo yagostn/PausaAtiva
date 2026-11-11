@@ -73,6 +73,7 @@ Entrega: [`docs/requisitos.md`](docs/requisitos.md)
 |------------|----------------------------------|
 | João Pedro Oliveira | Tópico 2.1 — definição e documentação das funcionalidades do aplicativo |
 | Yago Santana | Tópico 2.2 — levantamento e documentação dos requisitos funcionais do aplicativo |
+| Antonio Henrique | Tópico 2.2 — requisitos funcionais RF13 a RF20, acrescentados na Unidade II ([#22](https://github.com/yagostn/PausaAtiva/issues/22)) |
 | Antonio Henrique | Tópico 2.3 – levantamento e documentação dos requisitos não funcionais do aplicativo |
 | Caio Machado | Tópico 2.4 — identificação e documentação das operações de CRUD do aplicativo |
 | João Vitor | Tópico 2.5 — classificação e priorização das funcionalidades do aplicativo |
@@ -129,15 +130,36 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 
 ---
 
-## Atividade 06 — Shell do aplicativo Flutter
+## Atividade 06 — Unidade II: sprint 1 (11/11/2026)
 
-Issue: [#4](https://github.com/yagostn/PausaAtiva/issues/4) (tarefas #24, #25 e #26)
+Organização do quadro e primeiras entregas da Unidade II. O plano das sprints até 16/12 está no project [PausaAtiva - Estrutura](https://github.com/users/yagostn/projects/2) e o roteiro na [#16](https://github.com/yagostn/PausaAtiva/issues/16).
 
 ### Responsabilidade registrada
 
 | Integrante | Responsabilidade nesta atividade |
 |------------|----------------------------------|
-| Caio Machado | Projeto Flutter no repositório: pastas por funcionalidade, Riverpod, `minSdk` 24, quatro abas, tema, acessibilidade e abertura curta |
+| Antonio Henrique | Requisitos funcionais RF13 a RF20 em `docs/requisitos.md` ([#22](https://github.com/yagostn/PausaAtiva/issues/22), PR #59). Revisão e merge do PR #60 |
+| Caio Machado | Organização do quadro, das sprints e das issues ([#56](https://github.com/yagostn/PausaAtiva/issues/56), PR #57). Shell do aplicativo Flutter ([#4](https://github.com/yagostn/PausaAtiva/issues/4), PR #60). Revisão e merge dos PRs #58 e #59 |
+| João Pedro Oliveira | Responsável pelo fluxo de navegação real do aplicativo ([#14](https://github.com/yagostn/PausaAtiva/issues/14)), previsto para a sprint 7, depois que as telas abrirem no emulador. Revisão e merge do PR #57 |
+| Yago Santana | Proposta de escopo da Unidade II e modelo único do trabalhador em `docs/decisao-escopo-unidade-ii.md` ([#20](https://github.com/yagostn/PausaAtiva/issues/20), PR #58) |
+
+### Requisitos RF13 a RF20
+
+Entrega: [`docs/requisitos.md`](docs/requisitos.md), tópico 2.2
+
+Antonio Henrique acrescentou oito requisitos funcionais que o texto da Unidade I ainda não numerava: registrar a conclusão da pausa (RF13), consultar o histórico (RF14), relatório semanal sem frases de culpa (RF15), exportar o relatório em PDF no aparelho (RF16), operação offline (RF17), sincronização com a nuvem (RF18), adiar e dispensar o lembrete (RF19) e persistência do cronômetro (RF20).
+
+### Decisão de escopo e modelo de dados
+
+Entrega: [`docs/decisao-escopo-unidade-ii.md`](docs/decisao-escopo-unidade-ii.md)
+
+Yago Santana documentou a proposta do **Caminho A (trabalhador individual)**, a estrutura prevista para o Firestore e a persistência offline-first. **A aprovação do grupo ainda está pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**. Até a decisão ser confirmada, ninguém configura coleções nem regras no Firebase.
+
+### Shell do aplicativo Flutter
+
+Issue: [#4](https://github.com/yagostn/PausaAtiva/issues/4) (tarefas #24, #25 e #26)
+
+Caio Machado colocou o projeto Flutter no repositório: pastas por funcionalidade, Riverpod, `minSdk` 24, quatro abas, tema, acessibilidade e abertura curta.
 
 O **shell** é a estrutura do app que envolve as telas: a abertura, a navegação entre as abas, o tema e as pastas onde o resto do código vai entrar. As telas ainda estão vazias; as próximas issues preenchem cada uma.
 
@@ -199,12 +221,6 @@ PausaAtiva/
     ├── requisitos.md
     └── uso-de-ia.md
 ```
-
----
-
-## Unidade II — Decisão de escopo e modelo de dados
-
-A [proposta de decisão de escopo e modelo único do trabalhador](docs/decisao-escopo-unidade-ii.md) descreve o **Caminho A (trabalhador individual)**, a estrutura prevista para Firestore e a persistência offline-first. **Aprovação do grupo ainda pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**; não configurar coleções/regras no Firebase até a decisão ser confirmada. Registro da proposta: **Yago Santana** (`@yagostn`), em 11/11/2026, para a [#20](https://github.com/yagostn/PausaAtiva/issues/20).
 
 ---
 

@@ -18,6 +18,8 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `README.md`: inclusão do link da proposta, de seu status pendente e do novo arquivo na árvore de documentação. – *Yago Santana (@yagostn)*.
 - `android/app/build.gradle.kts`: `minSdk` fixado em 24 (Android 7.0). — *Caio Machado, issue #24*.
 - `README.md`: inclusão da Atividade 06, da responsabilidade de Caio Machado, das instruções para rodar o app e de `lib/`, `test/`, `pubspec.yaml` e `android/` na estrutura do repositório. — *Caio Machado, issue #26*.
+- `README.md`: a Atividade 06 passa a reunir a sprint 1 da Unidade II, com a responsabilidade de Antonio Henrique (#22), Caio Machado (#4 e #56), João Pedro Oliveira (#14) e Yago Santana (#20). A proposta de escopo do Yago sai da seção solta no fim do arquivo e entra nessa atividade. Na Atividade 03, o Antonio aparece como autor dos RF13 a RF20. — *Caio Machado*.
+- `CHANGELOG.md`: a entrada da 0.8.0 sobre `docs/uso-de-ia.md` volta a citar Caio Machado como autor (commit dc09aba, PR #57). A autoria tinha mudado na resolução de um conflito. — *Caio Machado*.
 - `docs/uso-de-ia.md`: seção 3.6 com os prompts da #4 em etapas (entender, implementar e revisar), o que foi aprendido em cada uma e os erros corrigidos no código gerado. — *Caio Machado, issue #4*.
 
 ### Removido
@@ -27,7 +29,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 
 ### Adicionado
 - `docs/requisitos.md`: especificação dos requisitos funcionais RF13 a RF20, contemplando registro de pausas, histórico, relatório semanal sem frases de culpa, exportação em PDF local, operação offline-first, sincronização em nuvem, ações rápidas e persistência do cronômetro. – *Antonio Henrique*
-- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e os aprendizados. – *Yago Santana (@yagostn)*
+- `docs/uso-de-ia.md`: registro de como a IA foi usada para organizar o quadro, as sprints até 16/12 e o texto das issues da Unidade II, com os prompts, o erro de misturar documentação de commit com implementação e a correção feita. — *Caio Machado*
 
 ### Alterado
 - `README.md`: atualização do resumo da Atividade 03 registrando a cobertura completa de RF01 a RF20. – *Antonio Henrique*
