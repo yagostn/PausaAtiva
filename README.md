@@ -129,7 +129,7 @@ Os diagramas abaixo representam a estrutura e a modelagem do sistema PausaAtiva,
 
 ## Documentação sobre o uso de Inteligência Artificial
 
-Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
+Documento que registra a utilização de ferramentas de IA como apoio na elaboração dos diagramas e modelos do PausaAtiva e na organização das sprints e das issues da Unidade II, incluindo os prompts utilizados, os erros identificados durante a geração e as soluções adotadas pelo grupo.
 
 - [Uso de Inteligência Artificial](docs/uso-de-ia.md)
 
@@ -149,6 +149,7 @@ PausaAtiva/
     ├── apresentacaoFinalUnidade1.pdf
     ├── apresentacaoRequisitos.pdf
     ├── benchmark.md
+    ├── decisao-escopo-unidade-ii.md
     ├── estudo-de-caso.md
     ├── personas.md
     ├── pesquisa.md
@@ -157,6 +158,12 @@ PausaAtiva/
     ├── requisitos.md
     └── uso-de-ia.md
 ```
+
+---
+
+## Unidade II — Decisão de escopo e modelo de dados
+
+A [proposta de decisão de escopo e modelo único do trabalhador](docs/decisao-escopo-unidade-ii.md) descreve o **Caminho A (trabalhador individual)**, a estrutura prevista para Firestore e a persistência offline-first. **Aprovação do grupo ainda pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**; não configurar coleções/regras no Firebase até a decisão ser confirmada. Registro da proposta: **Yago Santana** (`@yagostn`), em 11/11/2026, para a [#20](https://github.com/yagostn/PausaAtiva/issues/20).
 
 ---
 
