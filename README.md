@@ -77,7 +77,7 @@ Entrega: [`docs/requisitos.md`](docs/requisitos.md)
 | Caio Machado | Tópico 2.4 — identificação e documentação das operações de CRUD do aplicativo |
 | João Vitor | Tópico 2.5 — classificação e priorização das funcionalidades do aplicativo |
 
-O tópico 2.2 documenta 18 requisitos funcionais, abrangendo cadastro e login, timer, configuração das pausas, notificações, alongamentos, ergonomia, histórico, relatório semanal, exportação em PDF, funcionamento offline e sincronização dos dados.
+O tópico 2.2 documenta 20 requisitos funcionais (RF01 a RF20), abrangendo cadastro e login, timer, configuração das pausas, notificações locais, alongamentos, ergonomia, histórico, relatório semanal sem frases de culpa, exportação em PDF local, operação offline-first, sincronização em nuvem, ações rápidas (adiar/dispensar) e persistência do cronômetro.
 
 O tópico 2.4 identifica, para conta, configurações de pausa, histórico, relatório/PDF e conteúdo estático, o que precisa ser criado, consultado, atualizado ou excluído, e justifica as operações que não se aplicam.
 
