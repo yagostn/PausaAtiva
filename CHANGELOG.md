@@ -24,6 +24,8 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `docs/uso-de-ia.md`: declaração de uso de IA conforme a Portaria CNPq nº 2.664/2026, especificando o uso de ChatGPT (diagramas e modelos 3.1 a 3.4), Claude (sprints e shell Flutter 3.5 e 3.6), Codex, Gemini e Copilot. — *João Vitor*.
 - `README.md`: atualização da árvore da estrutura do repositório com a remoção das pastas de regras de automação. — *João Vitor*.
 - `README.md`: inclusão das entregas e da responsabilidade de João Vitor na Atividade 06 (estrutura de pastas e declaração sobre o uso de IA conforme a Portaria CNPq nº 2.664/2026). — *João Vitor*.
+- `docs/decisao-escopo-unidade-ii.md` e `README.md`: status do Caminho A passa de proposta para aprovado em 18/11/2026, por decisão de Caio Machado como líder do grupo, e a #13 fica fora do escopo. — *Caio Machado, issue #1*.
+- `docs/uso-de-ia.md`: seção 3.7 com o registro do uso de IA na leitura do estudo de caso e na comparação com a proposta de escopo, antes do voto na #1. A declaração da Portaria passa a citar a seção 3.7 para o Claude. — *Caio Machado, issue #1*.
 
 ### Removido
 - Contador do template do `flutter create`, que impedia o `lib/main.dart` de compilar. — *Caio Machado, issue #24*.

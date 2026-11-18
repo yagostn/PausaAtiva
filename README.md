@@ -154,7 +154,7 @@ Antonio Henrique acrescentou oito requisitos funcionais que o texto da Unidade I
 
 Entrega: [`docs/decisao-escopo-unidade-ii.md`](docs/decisao-escopo-unidade-ii.md)
 
-Yago Santana documentou a proposta do **Caminho A (trabalhador individual)**, a estrutura prevista para o Firestore e a persistência offline-first. **A aprovação do grupo ainda está pendente na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**. Até a decisão ser confirmada, ninguém configura coleções nem regras no Firebase.
+Yago Santana documentou a proposta do **Caminho A (trabalhador individual)**, a estrutura prevista para o Firestore e a persistência offline-first. **Em 18/11/2026 Caio Machado, como líder do grupo, aprovou o Caminho A na [#1](https://github.com/yagostn/PausaAtiva/issues/1)**. O Firebase (#5) pode seguir esse modelo, e a #13 (RH e papéis) fica fora do escopo da Unidade II.
 
 ### Shell do aplicativo Flutter
 
