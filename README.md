@@ -192,7 +192,7 @@ PausaAtiva/
 ├── pubspec.yaml
 ├── analysis_options.yaml
 ├── android/              # minSdk 24 (Android 7.0)
-├── ios/ linux/ macos/ web/ windows/   # gerados pelo flutter create
+├── ios/                  # gerado pelo flutter create
 ├── lib/
 │   ├── main.dart
 │   ├── app.dart

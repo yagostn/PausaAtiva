@@ -12,6 +12,8 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `lib/features/timer/domain/timer_status.dart`: textos "Pronto para iniciar", "Em andamento" e "Pausado", para o estado do timer não depender só de cor. Só o primeiro aparece por enquanto. — *Caio Machado, issue #25*.
 - `lib/core/theme/app_theme.dart`: tema sóbrio em azul e verde, com a paleta da documentação técnica (`#176B73`, `#0F4C5C`, `#42A579`, fundo `#F5F7F8`, texto `#17252A`) e alvos de toque ampliados. — *Caio Machado, issue #25*.
 - `AGENTS.md`, `.githooks/commit-msg` e `.github/workflows/sem-atribuicao-ia.yml`: regra de que commits e PRs não citam a ferramenta de IA ou o agente usado, com hook local e verificação no PR. O uso de IA fica registrado só em `docs/uso-de-ia.md`. — *Caio Machado*.
+- `lib/features/alongar/`: entidade `Alongamento` e `enum Ilustracao` em `domain/` (Dart puro), lista `alongamentosEstaticos` com os quatro movimentos sentados em `data/` e tela da aba Alongar em `presentation/`, com um cartão por movimento e ícones provisórios do Material. — *Caio Machado, issue #30*.
+- `docs/uso-de-ia.md`: seção 3.8 com o registro do uso de IA na #30, incluindo que a tela da aba foi escrita pela IA e estudada e testada por Caio. A declaração da Portaria passa a citar as seções 3.5 a 3.8 para o Claude. — *Caio Machado, issue #30*.
 - `test/widget_test.dart`: teste que confere a abertura, os rótulos de leitor de tela das quatro abas e o texto "Pronto para iniciar". — *Caio Machado, issue #26*.
 
 ### Alterado
