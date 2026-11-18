@@ -13,12 +13,12 @@ Declara-se a utilização de ferramentas de Inteligência Artificial (IA) genera
 
 - **(ii) Etapa do trabalho em que foi empregada:**
   - **ChatGPT:** empregado na Unidade I (seções 3.1 a 3.4), na etapa de levantamento visual e modelagem inicial do sistema.
-  - **Claude:** empregado na Unidade II (seções 3.5 a 3.7), nas etapas de organização das sprints e issues do projeto, na configuração e implementação inicial da casca (*shell*) em Flutter/Dart e na leitura do estudo de caso para a decisão de escopo.
+  - **Claude:** empregado na Unidade II (seções 3.5 a 3.8), nas etapas de organização das sprints e issues do projeto, na configuração e implementação inicial da casca (*shell*) em Flutter/Dart e na leitura do estudo de caso para a decisão de escopo.
   - **Codex, Gemini e Copilot:** empregados nas etapas de suporte técnico, consultas auxiliares de sintaxe e revisão de documentação.
 
 - **(iii) Finalidade específica de uso em cada etapa:**
   - **ChatGPT (3.1 a 3.4):** geração inicial dos diagramas conceituais UML (Caso de Uso e Classes) e das propostas de modelagem de dados no Firebase Firestore e seu mapeamento para Dart.
-  - **Claude (3.5 a 3.7):** organização e estruturação do quadro de tarefas/sprints no GitHub Projects, geração da estrutura base de pastas por funcionalidade, tema, abas e tela de abertura do aplicativo Flutter, e apoio na leitura e comparação do estudo de caso com a proposta de escopo.
+  - **Claude (3.5 a 3.8):** organização e estruturação do quadro de tarefas/sprints no GitHub Projects, geração da estrutura base de pastas por funcionalidade, tema, abas e tela de abertura do aplicativo Flutter, e apoio na leitura e comparação do estudo de caso com a proposta de escopo.
   - **Codex, Gemini e Copilot:** validações pontuais, conferências técnicas e apoio geral à elaboração de documentação.
 
 A IA foi utilizada estritamente como ferramenta de apoio, não substituindo a análise crítica, a validação técnica e as decisões dos integrantes do grupo.
@@ -30,7 +30,7 @@ Este documento apresenta como ferramentas de Inteligência Artificial foram util
 ## 2. Ferramentas utilizadas
 
 - **ChatGPT:** geração inicial dos diagramas de caso de uso e classes UML, além dos modelos de banco de dados Firebase/Firestore (seções 3.1 a 3.4).
-- **Claude:** organização de sprints, elaboração de issues e configuração/implementação do shell do app Flutter/Dart e apoio na leitura do estudo de caso para a decisão de escopo (seções 3.5 a 3.7).
+- **Claude:** organização de sprints, elaboração de issues e configuração/implementação do shell do app Flutter/Dart e apoio na leitura do estudo de caso para a decisão de escopo (seções 3.5 a 3.8).
 - **Codex, Gemini e Copilot:** consultas de suporte, sintaxe e checagem de código e documentação.
 - **Validação pelo grupo:** análise das informações geradas, comparação com os requisitos do projeto e realização dos ajustes necessários. No código, a conferência foi feita com `flutter analyze`, `flutter test` e execução no emulador.
 
@@ -203,6 +203,18 @@ Este documento apresenta como ferramentas de Inteligência Artificial foram util
 **Ferramenta:** assistente de código com acesso ao repositório local.
 
 **Como foi usada:** a IA ajudou a ler e comparar o estudo de caso (seções 2.2 e 2.6) com a proposta de escopo, e apontou que a meta semanal e o comportamento dos lembretes fora do expediente não têm campo no modelo. A IA também redigiu o rascunho do comentário que Caio publicou na #1. A decisão foi do grupo.
+
+### 3.8. Domínio, dados e tela do guia de alongamentos (#30, etapas A e B)
+
+**Responsável:** Caio Machado.
+
+**Objetivo:** criar o conteúdo dos quatro alongamentos sentados, separá-lo em camadas, seguindo a organização por funcionalidade (`domain/` e `data/`), e mostrá-lo na aba Alongar (`presentation/`).
+
+**Ferramenta:** assistente de código com acesso ao repositório local.
+
+**Como foi feito:** Caio escreveu a classe `Alongamento` e a primeira entrada da lista, a partir do texto da issue #30, e rodou `flutter analyze` e `dart format`. A IA apontou que a lista ainda estava incompleta, que a entidade importava o Flutter (`IconData`) dentro de `domain/`, e escreveu a versão final dos dois arquivos: `domain/alongamento.dart` (entidade e `enum Ilustracao`, em Dart puro) e `data/alongamentos_estaticos.dart` (os quatro movimentos). Os textos dos passos vêm do protótipo, descrito na issue #10. A IA explicou por que o conteúdo fica em `data/` e a decisão de qual desenho usar fica na tela. Caio decidiu remover as plataformas fora do escopo (PR #72) e conferiu cada etapa antes de seguir. A tela da aba (etapa B), `presentation/alongar_screen.dart`, foi escrita pela IA a pedido de Caio: uma lista com um cartão por alongamento, que lê `alongamentosEstaticos` e traduz o `enum Ilustracao` em ícones do Material (provisórios). Caio não escreveu esse arquivo. Ele estudou o código com a explicação da IA (árvore de widgets, `StatelessWidget`, `Row`, `Column`, `Expanded` e o papel de cada camada), rodou o app no simulador do iPhone 17 e testou que mudar um texto em `data/` altera a tela sem mexer em `presentation/`.
+
+**Erro identificado e correção:** a primeira versão colocava `IconData` na entidade, o que acoplava o domínio ao Flutter, e a lista ficou com o item de exemplo da IA, com `'...'` nos textos, que o `flutter analyze` não acusa. Foi corrigido trocando o ícone por um `enum` e conferindo o número de itens e a ausência de textos provisórios.
 
 ## 4. Erros identificados e soluções adotadas
 
