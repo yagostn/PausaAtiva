@@ -28,6 +28,7 @@ Registro das mudanças relevantes do projeto PausaAtiva.
 - `docs/uso-de-ia.md`: seção 3.7 com o registro do uso de IA na leitura do estudo de caso e na comparação com a proposta de escopo, antes do voto na #1. A declaração da Portaria passa a citar a seção 3.7 para o Claude. — *Caio Machado, issue #1*.
 
 ### Removido
+- `linux/`, `macos/`, `windows/` e `web/`: plataformas geradas pelo `flutter create` que ficam fora do escopo. O estudo de caso (2.7) define Android como alvo da primeira versão. Ficam `android/` e `ios/`. — *Caio Machado*.
 - Contador do template do `flutter create`, que impedia o `lib/main.dart` de compilar. — *Caio Machado, issue #24*.
 - `AGENTS.md`, `.githooks/` e `.github/workflows/sem-atribuicao-ia.yml`: remoção dos arquivos de regras de contribuição e verificação de automação. — *João Vitor*.
 
