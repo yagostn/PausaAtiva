@@ -1,8 +1,8 @@
 # Decisão de escopo — Unidade II (PausaAtiva)
 
-> **Status: proposta para deliberação do grupo — não aprovada.**  
-> **Caminho proposto: A — aplicativo individual do trabalhador.**  
-> Responsável pelo registro da proposta: **Yago Santana** (`@yagostn`). Data: **11/11/2026**.  
+> **Status: Caminho A aprovado em 18/11/2026 por Caio Machado, na função de líder do grupo.**  
+> **Caminho adotado: A — aplicativo individual do trabalhador.**  
+> Proposta registrada por: **Yago Santana** (`@yagostn`), em **11/11/2026**.  
 > Referências: [#1](https://github.com/yagostn/PausaAtiva/issues/1), [#20](https://github.com/yagostn/PausaAtiva/issues/20), [estudo de caso](estudo-de-caso.md) e [requisitos](requisitos.md).
 
 ## 1. Decisão proposta e justificativa
@@ -13,7 +13,7 @@ Adotar o **Caminho A**, recomendado pelo estudo de caso (seções 2.2 e 2.6): a 
 
 **Excluído da Unidade II:** empresa, equipe, RH/admin, painéis e indicadores corporativos, cartão de “relatório anônimo para o RH”, ranking, pontuação “Postura 92%”, sequências gamificadas e qualquer monitoramento de tela, teclado, navegação, aplicativos ou produtividade. O conteúdo divergente dos diagramas e do protótipo não amplia este escopo. Empresa/RH fica como possível evolução posterior, mediante nova decisão.
 
-**Governança da decisão:** esta é uma **proposta documentada**, não uma aprovação atribuída aos demais integrantes. A implementação de coleções e regras de segurança no Firebase deve aguardar a confirmação do grupo na [#1](https://github.com/yagostn/PausaAtiva/issues/1). Após essa confirmação, atualizar este status para **A aprovado**, registrando data e participantes; somente então encerrar a [#13](https://github.com/yagostn/PausaAtiva/issues/13), com link para este documento. Se o grupo preferir B, revisar o escopo e o modelo **antes** de implementar Firestore.
+**Governança da decisão:** em 18/11/2026, Caio Machado, na função de líder do grupo, adotou o Caminho A com base no estudo de caso (seções 2.2 e 2.6) e registrou o voto na [#1](https://github.com/yagostn/PausaAtiva/issues/1). Os demais integrantes não registraram confirmação nem objeção na issue até esta data; qualquer integrante pode contestar na #1, e uma mudança para o B exige revisar o escopo e o modelo **antes** de implementar o Firestore. Com a decisão fechada, a [#13](https://github.com/yagostn/PausaAtiva/issues/13) é encerrada por ficar fora do escopo.
 
 ## 2. Modelo único do trabalhador (proposto)
 
@@ -71,4 +71,4 @@ O último valor de `completedAt` é uma representação **JSON ilustrativa**; no
 - A arquitetura de persistência é **comportamental**, não uma escolha de biblioteca: a tecnologia local será definida na implementação.
 - Antes do Firebase, obter a deliberação registrada na #1 e alinhar o tratamento da #13. Validar com testes offline, reinício do aplicativo, reenvio idempotente e bloqueio de acesso a outro `uid`.
 
-**Decisão proposta por:** Yago Santana (`@yagostn`). **Aprovação do grupo:** pendente, a registrar na issue #1.
+**Proposta de:** Yago Santana (`@yagostn`). **Decisão:** Caio Machado (`@caio-machado-dev`), líder do grupo, em 18/11/2026, registrada na issue #1.
